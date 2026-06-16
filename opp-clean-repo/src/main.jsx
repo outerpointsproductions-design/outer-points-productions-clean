@@ -33,7 +33,9 @@ function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-si
  <div className="heroPanel"><img src={img('the-breaking-point-20-1.png')}/><h3>The Breaking Point™</h3><p>Original challenge-show pool content built by Outer Points Productions.</p></div>
 </section>
 <section className="stats">{stats.map(([a,b])=><div className="stat" key={a}><b>{a}</b><span>{b}</span></div>)}</section>
-<section id="series" className="wrap"><SectionTitle eyebrow="Featured Programming" title="A full Wisconsin pool media network">From weekly feature matches to full tournament stories, OPP turns pool events into broadcast-ready entertainment.</SectionTitle><div className="cards3">{eventCards.map(([t,d,p,link])=><article className="feature" key={t}><img src={img(p)}/><div><h3>{t}</h3><p>{d}</p><a href={link || "#contact"} target={link ? "_blank" : undefined} rel="noopener noreferrer">
+<section id="series" className="wrap"><SectionTitle eyebrow="Featured Programming" title="A full Wisconsin pool media network">From weekly feature matches to full tournament stories, OPP turns pool events into broadcast-ready entertainment.</SectionTitle><div className="cards3">{eventCards.map(([t,d,p,link])=><article className="feature" key={t}><img src={img(p)}/><div><h3>{t}</h3><p>{d}</p><a href="https://signup.outerpointsproductions.com" target="_blank" rel="noopener noreferrer">
+  Register Now ›
+</a>
   {t === "The Badger KO" ? "Register Now" : "Learn more"} ›
 </a>
 <section className="blueBand"><div><Trophy/><h2>The Breaking Point™</h2><p>12 contestants. 1 survivor. Player profiles, original challenges, qualifier stories, and episode-driven pool entertainment.</p></div><img src={img('1-bill-larson.png')}/></section>
