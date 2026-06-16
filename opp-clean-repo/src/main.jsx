@@ -55,27 +55,25 @@ function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-si
   <SectionTitle eyebrow="Featured Programming" title="A full Wisconsin pool media network">
     From weekly feature matches to full tournament stories, OPP turns pool events into broadcast-ready entertainment.
   </SectionTitle>
-  <div className="cards3">
-{eventCards.map(([t,d,p,link]) =>
-  <article
-    className="feature"
-    key={t}
-    onClick={() => window.open(link, "_blank")}
-    style={{ cursor: "pointer" }}
-  >
-    <img src={img(p)} />
-    <div>
-      <h3>{t}</h3>
-      <p>{d}</p>
-      <a href={link} target="_blank" rel="noopener noreferrer">
-        {t === "The Badger KO" ? "Register Now" : "Learn more"} ›
-      </a>
-    </div>
-  </article>
-)}  
-  )}
+<div className="cards3">
+  {eventCards.map(([t, d, p, link]) => {
+    const href = t === "The Badger KO" ? "https://signup.outerpointsproductions.com" : link || "#contact";
+
+    return (
+      <article className="feature" key={t} onClick={() => window.open(href, "_blank")} style={{ cursor: "pointer" }}>
+        <img src={img(p)} />
+        <div>
+          <h3>{t}</h3>
+          <p>{d}</p>
+          <a href={href} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()}>
+            {t === "The Badger KO" ? "Register Now" : "Learn more"} ›
+          </a>
+        </div>
+      </article>
+    );
+  })}
 </div>
-</section>
+</section>  
 <section className="blueBand"><div><Trophy/><h2>The Breaking Point™</h2><p>12 contestants. 1 survivor. Player profiles, original challenges, qualifier stories, and episode-driven pool entertainment.</p></div><img src={img('1-bill-larson.png')}/></section>
 <section id="badger-ko-signup" className="signupSec">
   <div className="signupArt"><img src={img('the-badger-ko-3.png')}/></div>
