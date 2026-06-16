@@ -37,7 +37,6 @@ function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-si
   <SectionTitle eyebrow="Featured Programming" title="A full Wisconsin pool media network">
     From weekly feature matches to full tournament stories, OPP turns pool events into broadcast-ready entertainment.
   </SectionTitle>
-
   <div className="cards3">
     {eventCards.map(([t,d,p,link]) =>
       <article className="feature" key={t}>
