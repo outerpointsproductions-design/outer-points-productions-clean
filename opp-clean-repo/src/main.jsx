@@ -58,13 +58,13 @@ function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-si
   <div className="cards3">
   {eventCards.map(([t,d,p,link]) =>
     <article className="feature" key={t}>
-      <a href={link || "#contact"} target={link ? "_blank" : undefined} rel="noopener noreferrer">
+      <a href={t === "The Badger KO" ? "https://signup.outerpointsproductions.com" : "#contact"} target="_blank" rel="noopener noreferrer">
         <img src={img(p)} />
       </a>
       <div>
         <h3>{t}</h3>
         <p>{d}</p>
-        <a href={link || "#contact"} target={link ? "_blank" : undefined} rel="noopener noreferrer">
+        <a href={t === "The Badger KO" ? "https://signup.outerpointsproductions.com" : "#contact"} target="_blank" rel="noopener noreferrer">
           {t === "The Badger KO" ? "Register Now" : "Learn more"} ›
         </a>
       </div>
