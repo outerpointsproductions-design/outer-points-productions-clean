@@ -23,6 +23,16 @@ const matchArchive=[
  ['KO 1.1 Finals','Mike Schultz vs. Al Holden','matches-by-name-2-1-1-finals.jpg'],['Ultimate KO Challenge','Kenny Engichy vs. Rudy McGill','kenny-and-rudy-png.png'],['Ultimate KO Finals','Patrick Racette vs. Jeremy Fedkenheuer','ultimate-ko-10-ball-jeremy-fedkenheuer-vs-patrick-racette.png'],['KO Challenge Finals','Tim Stockinger vs. Tarek Hamdan','finals-1.jpg'],['KO 1.5 Finals','Julie Fleming • Damien Bettinger • Randy Thiry','ko-1-5-7-6-1.png']
 ];
 const stats=[['Events & Series','KO Challenge • Masters • Breaking Point'],['Broadcast Style','Multi-camera, commentary, overlays'],['Core Venue','The Varsity Club • Oshkosh, WI'],['Mission','Grow Wisconsin pool through media']];
+function SectionTitle({ eyebrow, title, children }) {
+  return (
+    <div className="sectionTitle">
+      <p className="eyebrow">{eyebrow}</p>
+      <h2>{title}</h2>
+      <p>{children}</p>
+    </div>
+  );
+}
+
 function Header(){
   return (
     <header className="nav">
