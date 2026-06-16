@@ -38,19 +38,21 @@ function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-si
     From weekly feature matches to full tournament stories, OPP turns pool events into broadcast-ready entertainment.
   </SectionTitle>
   <div className="cards3">
-    {eventCards.map(([t,d,p,link]) =>
-      <article className="feature" key={t}>
+  {eventCards.map(([t,d,p,link]) =>
+    <article className="feature" key={t}>
+      <a href={link || "#contact"} target={link ? "_blank" : undefined} rel="noopener noreferrer">
         <img src={img(p)} />
-        <div>
-          <h3>{t}</h3>
-          <p>{d}</p>
-          <a href={link || "#contact"} target={link ? "_blank" : undefined} rel="noopener noreferrer">
-            {t === "The Badger KO" ? "Register Now" : "Learn more"} ›
-          </a>
-        </div>
-      </article>
-    )}
-  </div>
+      </a>
+      <div>
+        <h3>{t}</h3>
+        <p>{d}</p>
+        <a href={link || "#contact"} target={link ? "_blank" : undefined} rel="noopener noreferrer">
+          {t === "The Badger KO" ? "Register Now" : "Learn more"} ›
+        </a>
+      </div>
+    </article>
+  )}
+</div>
 </section>
 <section className="blueBand"><div><Trophy/><h2>The Breaking Point™</h2><p>12 contestants. 1 survivor. Player profiles, original challenges, qualifier stories, and episode-driven pool entertainment.</p></div><img src={img('1-bill-larson.png')}/></section>
 <section id="badger-ko-signup" className="signupSec">
