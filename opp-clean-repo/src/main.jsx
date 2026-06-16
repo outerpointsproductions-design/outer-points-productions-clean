@@ -90,7 +90,16 @@ function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-si
   <div className="signupCard">
     <p className="eyebrow">Player Registration</p>
     <h2>The Badger KO Signup</h2>
-    <p className="signupIntro">Wisconsin residents only. 625 Fargo & under. Fill this out to get on the player interest/sign-up list. Entries will be sent to Outer Points Productions.</p>
+    <p className="signupIntro">Wisconsin residents only. 625 Fargo & under. Fill this out to get on the player interest/sign-up list. Entries will be sent to Outer Points Productions.</p><div style={{marginBottom:'20px'}}>
+  <a
+    className="btn"
+    href="https://docs.google.com/document/d/1-uezJoeNYahkix_BBLT1I-1Edks8W-Ty8ttZeuKeRgc/edit?usp=sharing"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    View Full Format & Rules
+  </a>
+</div>
     <form className="signupForm" action="https://formsubmit.co/outerpointsproductions@gmail.com" method="POST">
       <input type="hidden" name="_subject" value="New Badger KO Player Signup" />
       <input type="hidden" name="_captcha" value="false" />
