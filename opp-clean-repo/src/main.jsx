@@ -56,19 +56,23 @@ function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-si
     From weekly feature matches to full tournament stories, OPP turns pool events into broadcast-ready entertainment.
   </SectionTitle>
   <div className="cards3">
-  {eventCards.map(([t,d,p,link]) =>
-    <article className="feature" key={t}>
-      <a href={t === "The Badger KO" ? "https://signup.outerpointsproductions.com" : "#contact"} target="_blank" rel="noopener noreferrer">
-        <img src={img(p)} />
+{eventCards.map(([t,d,p,link]) =>
+  <article
+    className="feature"
+    key={t}
+    onClick={() => window.open(link, "_blank")}
+    style={{ cursor: "pointer" }}
+  >
+    <img src={img(p)} />
+    <div>
+      <h3>{t}</h3>
+      <p>{d}</p>
+      <a href={link} target="_blank" rel="noopener noreferrer">
+        {t === "The Badger KO" ? "Register Now" : "Learn more"} ›
       </a>
-      <div>
-        <h3>{t}</h3>
-        <p>{d}</p>
-        <a href={t === "The Badger KO" ? "https://signup.outerpointsproductions.com" : "#contact"} target="_blank" rel="noopener noreferrer">
-          {t === "The Badger KO" ? "Register Now" : "Learn more"} ›
-        </a>
-      </div>
-    </article>
+    </div>
+  </article>
+)}  
   )}
 </div>
 </section>
