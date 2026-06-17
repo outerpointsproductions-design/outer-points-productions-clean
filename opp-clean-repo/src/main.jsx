@@ -91,8 +91,8 @@ function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-si
     <p className="eyebrow">Player Registration</p>
     <h2>The Badger KO Signup</h2>
     <p className="signupIntro">Wisconsin residents only. 625 Fargo & under. Fill this out to get on the player interest/sign-up list. Entries will be sent to Outer Points Productions.</p><div style={{marginBottom:'20px'}}>
-  <a
-   <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
+ <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
+
   <a
     className="btn"
     href="https://docs.google.com/document/d/1-uezJoeNYahkix_BBLT1I-1Edks8W-Ty8ttZeuKeRgc/edit?usp=sharing"
@@ -103,8 +103,16 @@ function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-si
   </a>
 
   <a
+    className="btn"
+    href="https://docs.google.com/spreadsheets/d/1ZcOFL5Utti5FbX5LnQoei0EaRqC0mirGzEuHZ_sVyrc/edit?usp=sharing"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    View Current Player List
+  </a>
+
 </div>
-</div>
+     
    <div className="rulesBox">
 
   <h2>The Badger KO Information Center</h2>
