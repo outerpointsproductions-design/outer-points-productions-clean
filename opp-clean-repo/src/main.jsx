@@ -112,6 +112,7 @@ function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-si
   </a>
 
 </div>
+     
    <div className="rulesBox">
 
   <h2>The Badger KO Information Center</h2>
