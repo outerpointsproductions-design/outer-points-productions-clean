@@ -177,7 +177,7 @@ function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-si
   <h2>Current Badger KO Player List</h2>
 
   <iframe
-    src="https://docs.google.com/spreadsheets/d/1ZcOFL5Utti5FbX5LnQoei0EaRqC0mirGzEuHZ_sVyrc/edit?usp=sharing"
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrIbd6uwIBwo2FILOd38pSpzh9-fieQ-IDZYtx75V5ZGEnkUsbKwGO9kteGIbb4aszDMJBiTcOTRWO/pubhtml?gid=105016959&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
     width="100%"
     height="600"
     style={{ border: "0", borderRadius: "16px" }}
