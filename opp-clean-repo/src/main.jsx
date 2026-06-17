@@ -92,6 +92,8 @@ function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-si
     <h2>The Badger KO Signup</h2>
     <p className="signupIntro">Wisconsin residents only. 625 Fargo & under. Fill this out to get on the player interest/sign-up list. Entries will be sent to Outer Points Productions.</p><div style={{marginBottom:'20px'}}>
   <a
+   <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
+  <a
     className="btn"
     href="https://docs.google.com/document/d/1-uezJoeNYahkix_BBLT1I-1Edks8W-Ty8ttZeuKeRgc/edit?usp=sharing"
     target="_blank"
@@ -99,6 +101,9 @@ function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-si
   >
     View Full Format & Rules
   </a>
+
+  <a
+</div>
 </div>
    <div className="rulesBox">
 
