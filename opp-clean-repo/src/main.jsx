@@ -176,12 +176,12 @@ function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-si
 <section id="player-list" className="playerListBox">
   <h2>Current Badger KO Player List</h2>
 
-  <iframe
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrIbd6uwIBwo2FILOd38pSpzh9-fieQ-IDZYtx75V5ZGEnkUsbKwGO9kteGIbb4aszDMJBiTcOTRWO/pubhtml?gid=105016959&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
-    width="100%"
-    height="600"
-    style={{ border: "0", borderRadius: "16px" }}
-  ></iframe>
+<iframe
+  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrIbd6uwIBwo2FILOd38pSpzh9-fieQ-IDZYtx75V5ZGEnkUsbKwGO9kteGIbb4aszDMJBiTcOTRWO/pubhtml?gid=105016959&amp;single=true&amp;widget=true&amp;headers=false"
+  width="100%"
+  height="600"
+  style={{ border: "0", borderRadius: "16px" }}
+></iframe>
 </section>
      
    <form className="signupForm" action="https://formsubmit.co/outerpointsproductions@gmail.com" method="POST">
