@@ -104,7 +104,7 @@ function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-si
 
   <a
     className="btn"
-    href="https://docs.google.com/spreadsheets/d/1ZcOFL5Utti5FbX5LnQoei0EaRqC0mirGzEuHZ_sVyrc/edit?usp=sharing"
+    href="YOUR_NEW_PUBLIC_PLAYER_LIST_LINK"
     target="_blank"
     rel="noopener noreferrer"
   >
