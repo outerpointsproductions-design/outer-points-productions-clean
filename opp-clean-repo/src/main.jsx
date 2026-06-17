@@ -203,7 +203,10 @@ function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-si
       <button className="btn primary submitBtn" type="submit">Submit Badger KO Signup</button>
       <p className="formNote">First time this form is used, FormSubmit may send a confirmation email to outerpointsproductions@gmail.com to activate submissions.</p>
     </form>
+     
   </div>
+  </div>
+ 
 </section>
 
 <section id="champions" className="wrap"><SectionTitle eyebrow="Champions Hall" title="KO Challenge history, winners, and big moments">A visual archive for the players who made the walk, handled the pressure, and earned the title.</SectionTitle><div className="champGrid">{champions.map(([n,t,p])=><article className="champ" key={n}><img src={img(p)}/><div><b>{n}</b><span>{t}</span></div></article>)}</div></section>
