@@ -183,6 +183,7 @@ function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-si
     style={{ border: "0", borderRadius: "16px" }}
   ></iframe>
 </section>
+     
    <form className="signupForm" action="https://formsubmit.co/outerpointsproductions@gmail.com" method="POST">
       <input type="hidden" name="_subject" value="New Badger KO Player Signup" />
       <input type="hidden" name="_captcha" value="false" />
