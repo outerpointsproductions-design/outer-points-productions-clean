@@ -171,7 +171,18 @@ function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-si
     "View Full Format & Rules" button above.
   </p>
 
-</div> <section id="player-list" className="playerListBox">  <h2>Current Badger KO Player List</h2>  <iframe    src="YOUR_PUBLISHED_GOOGLE_SHEET_LINK"    width="100%"    height="600"    style={{ border: "0", borderRadius: "16px" }}  ></iframe</section>
+</div>
+
+<section id="player-list" className="playerListBox">
+  <h2>Current Badger KO Player List</h2>
+
+  <iframe
+    src="YOUR_PUBLISHED_GOOGLE_SHEET_LINK"
+    width="100%"
+    height="600"
+    style={{ border: "0", borderRadius: "16px" }}
+  ></iframe>
+</section>
    <form className="signupForm" action="https://formsubmit.co/outerpointsproductions@gmail.com" method="POST">
       <input type="hidden" name="_subject" value="New Badger KO Player Signup" />
       <input type="hidden" name="_captcha" value="false" />
