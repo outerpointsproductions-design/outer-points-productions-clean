@@ -100,7 +100,68 @@ function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-si
     View Full Format & Rules
   </a>
 </div>
-    <form className="signupForm" action="https://formsubmit.co/outerpointsproductions@gmail.com" method="POST">
+   <div className="rulesBox">
+
+  <h2>The Badger KO Information Center</h2>
+
+  <h3>Tournament Overview</h3>
+  <ul>
+    <li>128 Player Field</li>
+    <li>Wisconsin Residents Only</li>
+    <li>625 Fargo & Under</li>
+    <li>$265 Entry Fee</li>
+    <li>Double Elimination Format</li>
+    <li>Schedule Your Own Match Date & Time</li>
+    <li>Player Auction or Side Pot Available</li>
+    <li>Final 16 Live Streamed at The Varsity Club</li>
+  </ul>
+
+  <h3>Match Format</h3>
+  <ul>
+    <li>Best 2 out of 3 Sets</li>
+    <li>Alternate Breaks</li>
+  </ul>
+
+  <h3>Set Format</h3>
+  <ul>
+    <li>Set 1 - 9-Ball - Race to 6</li>
+    <li>Set 2 - 8-Ball - Race to 4</li>
+    <li>Set 3 - 10-Ball - Race to 5</li>
+  </ul>
+
+  <h3>Handicap System</h3>
+  <p>
+    One game spot is awarded for every 50 Fargo points difference.
+    The higher Fargo rated player must win 1 extra game per spot per set.
+  </p>
+
+  <h3>Awards & Prizes</h3>
+  <ul>
+    <li>$7,500 Champion Prize</li>
+    <li>Trophies & Prizes for the Final 16</li>
+    <li>Additional Awards Announced Throughout the Event</li>
+  </ul>
+
+  <h3>Match Scheduling</h3>
+  <p>
+    Players are responsible for scheduling their own matches with their opponents.
+    Matches must be completed within the required round deadlines.
+  </p>
+
+  <h3>Live Stream Finals</h3>
+  <p>
+    The Final 16 players will advance to the live streamed championship stages
+    at The Varsity Club in Oshkosh, Wisconsin.
+  </p>
+
+  <h3>Official Rules</h3>
+  <p>
+    For the complete rulebook and tournament policies, click the
+    "View Full Format & Rules" button above.
+  </p>
+
+</div> 
+   <form className="signupForm" action="https://formsubmit.co/outerpointsproductions@gmail.com" method="POST">
       <input type="hidden" name="_subject" value="New Badger KO Player Signup" />
       <input type="hidden" name="_captcha" value="false" />
       <input type="hidden" name="_template" value="table" />
