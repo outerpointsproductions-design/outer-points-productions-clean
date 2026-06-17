@@ -158,6 +158,14 @@ function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-si
   <p>
     For the complete rulebook and tournament policies, click the
     "View Full Format & Rules" button above.
+ <a
+  className="btn"
+  href="https://docs.google.com/spreadsheets/d/1ZcOFL5Utti5FbX5LnQoei0EaRqC0mirGzEuHZ_sVyrc/edit?usp=sharing"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  View Current Player List
+</a>  
   </p>
 
 </div> 
