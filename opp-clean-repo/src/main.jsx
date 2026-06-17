@@ -177,7 +177,6 @@ function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-si
   target="_blank"
   rel="noopener noreferrer"
 >
-  View Current Player List
 </a>  
   </p>
 
