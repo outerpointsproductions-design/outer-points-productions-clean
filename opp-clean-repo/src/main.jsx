@@ -70,12 +70,23 @@ function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-si
     const href = link || "#contact";
 
     return (
-      <article className="feature" key={t} onClick={() => window.open(href, "_blank")} style={{ cursor: "pointer" }}>
+      onClick={() => {
+  if (href.startsWith("#")) {
+    document.querySelector(href)?.scrollIntoView({ behavior: "smooth" });
+  } else {
+    window.open(href, "_blank");
+  }
+}}
         <img src={img(p)} />
         <div>
           <h3>{t}</h3>
           <p>{d}</p>
-          <a href={href} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()}>
+          <a
+  href={href}
+  target={href.startsWith("#") ? "_self" : "_blank"}
+  rel="noopener noreferrer"
+  onClick={(e) => e.stopPropagation()}
+>
             {t === "The Badger KO" ? "Register Now" : "Learn more"} ›
           </a>
         </div>
