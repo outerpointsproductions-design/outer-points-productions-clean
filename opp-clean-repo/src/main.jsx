@@ -70,13 +70,18 @@ function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-si
     const href = link || "#contact";
 
     return (
-      onClick={() => {
-  if (href.startsWith("#")) {
-    document.querySelector(href)?.scrollIntoView({ behavior: "smooth" });
-  } else {
-    window.open(href, "_blank");
-  }
-}}
+<article
+  className="feature"
+  key={t}
+  onClick={() => {
+    if (href.startsWith("#")) {
+      document.querySelector(href)?.scrollIntoView({ behavior: "smooth" });
+    } else {
+      window.open(href, "_blank");
+    }
+  }}
+  style={{ cursor: "pointer" }}
+>
         <img src={img(p)} />
         <div>
           <h3>{t}</h3>
