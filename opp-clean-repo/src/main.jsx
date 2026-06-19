@@ -67,7 +67,7 @@ function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-si
   </SectionTitle>
 <div className="cards3">
   {eventCards.map(([t, d, p, link]) => {
-    const href = t === "The Badger KO" ? "https://signup.outerpointsproductions.com" : link || "#contact";
+    const href = link || "#contact";
 
     return (
       <article className="feature" key={t} onClick={() => window.open(href, "_blank")} style={{ cursor: "pointer" }}>
