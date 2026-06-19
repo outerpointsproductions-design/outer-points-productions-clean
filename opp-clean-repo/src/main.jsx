@@ -10,7 +10,7 @@ const sponsors=[
 ];
 const eventCards=[
  ['The Breaking Point™','12 contestants. 1 survivor. High-pressure original pool challenges built for streaming.','the-breaking-point-21-2.png','#contact'],
- ['The Badger KO','Wisconsin residents, serious Fargo caps, big money, schedule-your-own match dates, and live final stages.','the-badger-ko-3.png','https://signup.outerpointsproductions.com'],
+ ['The Badger KO','Wisconsin residents, serious Fargo caps, big money, schedule-your-own match dates, and live final stages.','the-badger-ko-3.png','#badger-ko-signup']
  ['KO Masters Series','Feature matches, big Fargo numbers, studio-style graphics, and premium live stream nights.','2-j-fed-vs-dan-moser.png','#contact']
 ];
 const champions=[
