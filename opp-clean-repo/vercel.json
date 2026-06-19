@@ -1,5 +1,6 @@
 {
   "rewrites": [
-    { "source": "/badger-ko-signup", "destination": "/" }
+    { "source": "/badger-ko-signup", "destination": "/" },
+    { "source": "/(.*)", "destination": "/" }
   ]
 }
