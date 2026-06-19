@@ -9,8 +9,7 @@ const sponsors=[
  ['JB Cases','3d-sponsor-logos-7-1-1.png'],['American Family Insurance','amfam-1.png'],['Avenue Auto','avneue-1.png'],['BilletSpin EDC','billetspin-1.png'],['Brave Billiards','brave-1.png'],['BridgeMates','bridgemates-1.png'],['Conscious Carnivore','conscious-1.png'],['DKM Carpentry','dkm-1.png'],['Dumper Dan’s','dumper-1.png'],['El Poblano','el-pablano-1.png'],['Home Sweet Home','home-sweet-home-1.png'],['Johnko Express','johnko-1.png'],['LK Painting & Staining','lk-1.png'],['Midstate Amusement Games','midstate-1.png'],['J. Pechauer Custom Cues','pechauer.png'],['Sorce Martial Arts','sorce.png'],['Strong Knife Company','strong.png'],['The Corner Pocket','the-corner-pocket.png'],['Tovar Construction','tovar.png'],['The Varsity Club','varsity-3.png'],['Vince D Tattoos','vincent.png'],['WIBHOF','wibhof-5.png'],['WPPS','wpps.png'],['Onboard Sportswear','onboard-logo-2.png']
 ];
 const eventCards=[
- ['The Breaking Point™','12 contestants. One survivor. Pressure-packed pool challenges, elimination battles, and unforgettable moments as players fight to become the first-ever Breaking Point champion.
-.','the-breaking-point-21-2.png','#contact'],
+ ['The Breaking Point™','12 contestants. One survivor. Pressure-packed pool challenges, elimination battles, and unforgettable moments as players fight to become the first-ever Breaking Point champion.','the-breaking-point-21-2.png','#contact'],
  ['The Badger KO','Wisconsin residents, serious Fargo caps, big money, schedule-your-own match dates, and live final stages.','the-badger-ko-3.png','#badger-ko-signup'],
  ['KO Masters Series','Feature matches, big Fargo numbers, studio-style graphics, and premium live stream nights.','2-j-fed-vs-dan-moser.png','#contact']
 ];
