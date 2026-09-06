@@ -100,7 +100,23 @@ function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-si
   })}
 </div>
 </section>  
-<section className="blueBand"><div><Trophy/><h2>The Breaking Point™</h2><p>12 contestants. 1 survivor. Player profiles, original challenges, qualifier stories, and episode-driven pool entertainment.</p></div><img src={img('1-bill-larson.png')}/></section>
+<section className="blueBand">
+  <div>
+    <Trophy />
+    <h2>The Breaking Point™</h2>
+    <p>
+      12 contestants. 1 survivor. Player profiles, original challenges,
+      qualifier stories, and episode-driven pool entertainment.
+    </p>
+
+    <a
+      className="btn"
+      href="#breaking-point"
+    >
+      Enter The Breaking Point
+    </a>
+  </div>
+</section>
 <section id="badger-ko-signup" className="signupSec">
   <div className="signupArt"><img src={img('the-badger-ko-3.png')}/></div>
   <div className="signupCard">
