@@ -202,27 +202,7 @@ function App(){
     </div>
      </div>
 </section>
-<section id="breaking-point" className="wrap">
-  <SectionTitle
-    eyebrow="The Breaking Point™"
-    title="Meet The Contestants"
-  >
-    12 players. 12 stories. One survivor.
-  </SectionTitle>
 
-<div className="breakingPointGrid">
-<img src="/assets/1-Bill%20Larson.png" alt="Bill Larson" />
-<img src="/assets/2-Zander%20Rasmussen.png" alt="Zander Rasmussen" />
-<img src="/assets/3-Derek%20Tauschek.png" alt="Derek Tauschek" />
-<img src="/assets/4-Donny%20Bailey%20Jr..png" alt="Donny Bailey Jr." />
-<img src="/assets/5-Tony%20Vierra.png" alt="Tony Vierra" />
-<img src="/assets/6-Vincent%20Schroeder.png" alt="Vincent Schroeder" />
-<img src="/assets/7-Jeff%20Trentadue.png" alt="Jeff Trentadue" />
-<img src="/assets/8-Mike%20Benoy.png" alt="Mike Benoy" />
-<img src="/assets/9-Corey%20Cyert.png" alt="Corey Cyert" />
-<img src="/assets/10-JR%20Villegas.png" alt="JR Villegas" />
-</div>
-</section>
 
 <section id="badger-ko-signup" className="signupSec">
   <div className="signupArt"><img src={img('the-badger-ko-3.png')}/></div>
