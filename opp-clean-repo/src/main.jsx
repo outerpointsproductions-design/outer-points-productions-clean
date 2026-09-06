@@ -43,6 +43,7 @@ function Header(){
 
       <nav>
         <a href="#series">Series</a>
+       <a href="/breaking-point">The Breaking Point</a>
         <a href="https://signup.outerpointsproductions.com" target="_blank" rel="noopener noreferrer">
           Badger KO Signup
         </a>
