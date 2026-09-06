@@ -152,9 +152,21 @@ function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-si
         }}
       />
     </div>
+     </div>
+</section>
+<section id="breaking-point" className="wrap">
+  <SectionTitle
+    eyebrow="The Breaking Point™"
+    title="Meet The Contestants"
+  >
+    12 players. 12 stories. One survivor.
+  </SectionTitle>
 
+  <div className="breakingPointGrid">
+    <img src={img('the-breaking-point-20-1.png')} alt="The Breaking Point" />
   </div>
 </section>
+
 <section id="badger-ko-signup" className="signupSec">
   <div className="signupArt"><img src={img('the-badger-ko-3.png')}/></div>
   <div className="signupCard">
