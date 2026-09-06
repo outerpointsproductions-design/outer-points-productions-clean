@@ -146,6 +146,78 @@ function BreakingPointPage() {
     </>
   );
 }
+function ChampionsHallPage() {
+  return (
+    <>
+      <Header />
+
+      <main
+        className="wrap"
+        style={{ paddingTop: '60px', paddingBottom: '80px' }}
+      >
+        <SectionTitle
+          eyebrow="Champions Hall"
+          title="KO Challenge History, Champions & Big Moments"
+        >
+          The history of Outer Points Productions competition — champions,
+          finalists, unforgettable moments, feature matches, and full event replays.
+        </SectionTitle>
+
+        <div className="champGrid">
+          {champions.map(([n,t,p]) =>
+            <article className="champ" key={n}>
+              <img src={img(p)} />
+              <div>
+                <b>{n}</b>
+                <span>{t}</span>
+              </div>
+            </article>
+          )}
+        </div>
+
+        <h2 style={{ marginTop: '60px' }}>
+          Feature Matches & Event Archive
+        </h2>
+
+        <div className="archive">
+          {matchArchive.map(([t,s,p,link]) =>
+            <article
+              className="archiveCard"
+              key={t}
+              onClick={() => link && window.open(link, '_blank')}
+              style={{ cursor: link ? 'pointer' : 'default' }}
+            >
+              <img src={img(p)} />
+
+              <div>
+                <b>{t}</b>
+                <span>{s}</span>
+
+                {link && (
+                  <div
+                    style={{
+                      marginTop: '12px',
+                      fontWeight: '800'
+                    }}
+                  >
+                    WATCH MATCH ▶
+                  </div>
+                )}
+              </div>
+            </article>
+          )}
+        </div>
+
+        <div style={{ marginTop: '50px' }}>
+          <a className="btn" href="/">
+            ← Back to Outer Points Productions
+          </a>
+        </div>
+
+      </main>
+    </>
+  );
+}
 function App(){
   useEffect(() => {
     if(window.location.pathname.includes('badger-ko-signup')){
