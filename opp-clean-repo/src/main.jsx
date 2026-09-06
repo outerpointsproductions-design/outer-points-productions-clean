@@ -136,7 +136,6 @@ function BreakingPointPage() {
   </div>
 
 </div>
-        </div>
 
         <div style={{ marginTop: '40px' }}>
           <a className="btn" href="/">
