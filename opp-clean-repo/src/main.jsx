@@ -101,32 +101,54 @@ function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-si
 </div>
 </section>  
 <section className="blueBand">
-  <div>
-   <img
-  src={img('the-breaking-point-20-1.png')}
-  alt="The Breaking Point"
-  style={{
-    width: '100%',
-    maxWidth: '700px',
-    height: 'auto',
-    display: 'block',
-    margin: '0 auto 30px',
-    borderRadius: '16px'
-  }}
-/>
-    <Trophy />
-    <h2>The Breaking Point™</h2>
-    <p>
-      12 contestants. 1 survivor. Player profiles, original challenges,
-      qualifier stories, and episode-driven pool entertainment.
-    </p>
+  <div
+    style={{
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'space-between',
+      gap: '40px',
+      flexWrap: 'wrap'
+    }}
+  >
 
-    <a
-      className="btn"
-      href="#breaking-point"
+    <div style={{ flex: '1 1 500px' }}>
+      <Trophy />
+
+      <h2>The Breaking Point™</h2>
+
+      <p>
+        12 contestants. 1 survivor. Player profiles, original challenges,
+        qualifier stories, and episode-driven pool entertainment.
+      </p>
+
+      <a
+        className="btn"
+        href="#breaking-point"
+      >
+        Enter The Breaking Point
+      </a>
+    </div>
+
+    <div
+      style={{
+        flex: '0 1 450px',
+        marginLeft: 'auto'
+      }}
     >
-      Enter The Breaking Point
-    </a>
+      <img
+        src={img('the-breaking-point-20-1.png')}
+        alt="The Breaking Point"
+        style={{
+          width: '100%',
+          maxWidth: '450px',
+          height: 'auto',
+          display: 'block',
+          marginLeft: 'auto',
+          borderRadius: '16px'
+        }}
+      />
+    </div>
+
   </div>
 </section>
 <section id="badger-ko-signup" className="signupSec">
