@@ -107,11 +107,11 @@ function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-si
       alignItems: 'center',
       justifyContent: 'space-between',
       gap: '40px',
-      flexWrap: 'wrap'
+      flexWrap: 'nowrap'
     }}
   >
 
-    <div style={{ flex: '1 1 500px' }}>
+    <div style={{ flex: '1 1 55%' }}>
       <Trophy />
 
       <h2>The Breaking Point™</h2>
@@ -131,7 +131,7 @@ function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-si
 
     <div
       style={{
-        flex: '0 1 450px',
+        flex: '0 1 38%',
         marginLeft: 'auto'
       }}
     >
