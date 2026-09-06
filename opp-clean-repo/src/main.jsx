@@ -111,7 +111,7 @@ function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-si
     }}
   >
 
-    <div style={{ flex: '1 1 55%' }}>
+    <div style={{ flex: '1 1 65%' }}>
       <Trophy />
 
       <h2>The Breaking Point™</h2>
@@ -129,18 +129,21 @@ function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-si
       </a>
     </div>
 
-    <div
-      style={{
-        flex: '0 1 38%',
-        marginLeft: 'auto'
-      }}
-    >
+   <div
+  style={{
+    flex: '0 1 28%',
+    marginLeft: 'auto',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center'
+  }}
+>
       <img
         src={img('the-breaking-point-20-1.png')}
         alt="The Breaking Point"
         style={{
           width: '100%',
-          maxWidth: '450px',
+          maxWidth: '380px',
           height: 'auto',
           display: 'block',
           marginLeft: 'auto',
