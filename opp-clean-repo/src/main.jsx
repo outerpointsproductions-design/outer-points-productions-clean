@@ -129,13 +129,14 @@ function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-si
       </a>
     </div>
 
-   <div
+  <div
   style={{
-    flex: '0 1 32%',
-    marginLeft: 'auto',
+    flex: '0 0 420px',
+    marginLeft: '80px',
+    marginRight: '120px',
     display: 'flex',
     alignItems: 'center',
-    justifyContent: 'flex-end'
+    justifyContent: 'center'
   }}
 >
       <img
