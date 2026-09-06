@@ -146,6 +146,17 @@ function BreakingPointPage() {
     </>
   );
 }
+const koTournaments = [
+  ['KO 1.1','1.1 Finals - Mike Schultz and Al Holden.png'],
+  ['KO 1.2','1.2 Finals - Charlie Wolfe vs Mike Lamere.jpeg'],
+  ['KO 1.3','1.3 Finals - Brad Royce and Jason Harlan.jpeg'],
+  ['KO 1.4','1.4 Finals - Gretchen Froelich and Nick Sumnicht.png'],
+  ['KO 1.5','ko-1-5-7-6-1.png'],
+  ['KO 1.6','1.6 Finals - Zander Rasmussen Vs. Derek Tauschek.png'],
+  ['KO 2.1','KO 2.1-8-Mike K. Vs Lyle G. (1).jpeg'],
+  ['KO 3.0','3.0 Finals - Dan Vs. Grey.png'],
+  ['Ultimate KO','Ultimate KO 10-Ball Jeremy Fedkenheuer Vs. Patrick Racette.png']
+];
 function ChampionsHallPage() {
   return (
     <>
@@ -163,23 +174,21 @@ function ChampionsHallPage() {
           finalists, unforgettable moments, feature matches, and full event replays.
         </SectionTitle>
 
-        <div className="champGrid">
-          {champions.map(([n,t,p]) =>
-            <article className="champ" key={n}>
-              <img src={img(p)} />
-              <div>
-                <b>{n}</b>
-                <span>{t}</span>
-              </div>
-            </article>
-          )}
-        </div>
+      <h2 style={{ marginTop: '40px' }}>
+  Select A KO Tournament
+</h2>
 
-        <h2 style={{ marginTop: '60px' }}>
-          Feature Matches & Event Archive
-        </h2>
-
-        <div className="archive">
+<div className="koTournamentGrid">
+  {koTournaments.map(([name,p]) =>
+    <div
+      className="koTournamentCard"
+      key={name}
+    >
+      <img src={img(p)} alt={name} />
+      <h3>{name}</h3>
+    </div>
+  )}
+</div>
           {matchArchive.map(([t,s,p,link]) =>
             <article
               className="archiveCard"
