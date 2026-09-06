@@ -57,3 +57,33 @@
     grid-template-columns:1fr;
   }
 }
+.contestantCard {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.contestantCard img {
+  width: 100%;
+  display: block;
+  border-radius: 16px;
+}
+
+.videoCard {
+  transition: transform 0.25s ease;
+  cursor: pointer;
+}
+
+.videoCard:hover {
+  transform: translateY(-6px);
+}
+
+.videoCard span {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px 12px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
