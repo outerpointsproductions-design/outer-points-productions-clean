@@ -117,13 +117,25 @@ function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-si
   >
     View Full Format & Rules
   </a>
-
   <a
-    className="btn"
-    href="#player-list"
-  >
-    View Current Player List
-  </a>
+  className="btn"
+href="https://docs.google.com/spreadsheets/d/1hTdTwvVAwHaksyz1azI9Go5eH46RvivlBXNws43n5t8/edit?usp=sharing"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  View Current Player List
+</a>
+
+<a
+  className="btn"
+  href="https://docs.google.com/forms/d/e/1FAIpQLSdkBlQjMkTC79hOz77RNq_OfT7RVbjccFdmoNPh_49YOLIcMg/viewform?usp=publish-editor"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Register for The Badger KO
+</a>
+
+  
 
 </div>
      
@@ -189,38 +201,9 @@ function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-si
 
 </div>
 
-<section id="player-list" className="playerListBox">
-  <h2>Current Badger KO Player List</h2>
 
-<iframe
-  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrIbd6uwIBwo2FILOd38pSpzh9-fieQ-IDZYtx75V5ZGEnkUsbKwGO9kteGIbb4aszDMJBiTcOTRWO/pubhtml?gid=105016959&amp;single=true&amp;widget=true&amp;headers=false"
-  width="100%"
-  height="600"
-  style={{ border: "0", borderRadius: "16px" }}
-></iframe>
-</section>
      
-   <form className="signupForm" action="https://formsubmit.co/outerpointsproductions@gmail.com" method="POST">
-      <input type="hidden" name="_subject" value="New Badger KO Player Signup" />
-      <input type="hidden" name="_captcha" value="false" />
-      <input type="hidden" name="_template" value="table" />
-      <input type="hidden" name="_next" value="https://signup.outerpointsproductions.com" />
-      <div className="formGrid">
-        <label>Player Name<input required name="Player Name" placeholder="First and last name" /></label>
-        <label>Email<input required type="email" name="Email" placeholder="player@email.com" /></label>
-        <label>Phone<input name="Phone" placeholder="Cell number" /></label>
-        <label>City / Hometown<input name="City / Hometown" placeholder="City, WI" /></label>
-        <label>Fargo Rating<input required name="Fargo Rating" placeholder="Example: 596" /></label>
-        <label>Fargo Robustness<input name="Fargo Robustness" placeholder="Example: 400+" /></label>
-        <label>Preferred Pool Room<input name="Preferred Pool Room" placeholder="Home room / venue" /></label>
-        <label>Side Pot / Auction Interest<select name="Side Pot / Auction Interest"><option>Yes</option><option>No</option><option>Maybe</option></select></label>
-      </div>
-      <div className="checkLine"><input required type="checkbox" name="Wisconsin Resident Confirmed" value="Yes" /> <span>I confirm I am a Wisconsin resident.</span></div>
-      <div className="checkLine"><input required type="checkbox" name="625 Fargo and Under Confirmed" value="Yes" /> <span>I confirm I am 625 Fargo or under.</span></div>
-      <label className="fullLabel">Notes / Questions<textarea name="Notes" rows="4" placeholder="Anything OPP should know?"></textarea></label>
-      <button className="btn primary submitBtn" type="submit">Submit Badger KO Signup</button>
-      <p className="formNote">First time this form is used, FormSubmit may send a confirmation email to outerpointsproductions@gmail.com to activate submissions.</p>
-    </form>
+  
      
   </div>
   </div>
