@@ -174,7 +174,21 @@ function ChampionsHallPage() {
           finalists, unforgettable moments, feature matches, and full event replays.
         </SectionTitle>
 
-      <h2 style={{ marginTop: '40px' }}>
+<h2 style={{ marginTop: '40px' }}>
+  Select A KO Tournament
+</h2>
+
+<div className="koTournamentGrid">
+  {koTournaments.map(([name,p]) =>
+    <div
+      className="koTournamentCard"
+      key={name}
+    >
+      <img src={img(p)} alt={name} />
+      <h3>{name}</h3>
+    </div>
+  )}
+</div>
 
         <div style={{ marginTop: '50px' }}>
           <a className="btn" href="/">
