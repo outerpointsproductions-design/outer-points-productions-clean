@@ -369,8 +369,47 @@ href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSTA0AHyVAc_iVVHDc76oA2l_L
  
 </section>
 
-<section id="champions" className="wrap"><SectionTitle eyebrow="Champions Hall" title="KO Challenge history, winners, and big moments">A visual archive for the players who made the walk, handled the pressure, and earned the title.</SectionTitle><div className="champGrid">{champions.map(([n,t,p])=><article className="champ" key={n}><img src={img(p)}/><div><b>{n}</b><span>{t}</span></div></article>)}</div></section>
-<section className="wrap"><SectionTitle eyebrow="Match Center" title="Feature matches and event archive">Promotional artwork, match previews, finals nights, and replay-ready event cards.</SectionTitle><div className="archive">{matchArchive.map(([t,s,p,link])=><article className="archiveCard" key={t} onClick={()=>link&&window.open(link,'_blank')} style={{cursor:link?'pointer':'default'}}><img src={img(p)}/><div><b>{t}</b><span>{s}</span></div></article>)}</div></section>
+<section id="champions" className="wrap">
+
+  <SectionTitle
+    eyebrow="Champions Hall"
+    title="KO Challenge History, Champions & Big Moments"
+  >
+    The history of Outer Points Productions competition — champions, finalists, unforgettable moments, feature matches, and full event replays.
+  </SectionTitle>
+
+  <div className="champGrid">
+    {champions.map(([n,t,p]) =>
+      <article className="champ" key={n}>
+        <img src={img(p)} />
+        <div>
+          <b>{n}</b>
+          <span>{t}</span>
+        </div>
+      </article>
+    )}
+  </div>
+
+  <h2 style={{marginTop:'60px'}}>Feature Matches & Event Archive</h2>
+
+  <div className="archive">
+    {matchArchive.map(([t,s,p,link]) =>
+      <article
+        className="archiveCard"
+        key={t}
+        onClick={()=>link&&window.open(link,'_blank')}
+        style={{cursor:link?'pointer':'default'}}
+      >
+        <img src={img(p)} />
+        <div>
+          <b>{t}</b>
+          <span>{s}</span>
+        </div>
+      </article>
+    )}
+  </div>
+
+</section>
 <section id="media" className="wrap"><SectionTitle eyebrow="Media Center" title="Behind the booth, around the room, and on the stream">Show sponsors and venues what OPP production looks like from the inside.</SectionTitle><div className="gallery">{gallery.map(([t,p])=><figure key={t}><img src={img(p)}/><figcaption>{t}</figcaption></figure>)}</div></section>
 <section id="sponsors" className="sponsorSec"><SectionTitle eyebrow="Sponsor Network" title="Brands backing Wisconsin pool">OPP gives sponsors recurring exposure through live streams, social posts, event graphics, player features, and tournament coverage.</SectionTitle><div className="sponsorGrid">{sponsors.map(([n,p])=><div className="sponsor" key={n}><img src={img(p)}/><span>{n}</span></div>)}</div></section>
 <section className="wrap split"><div><SectionTitle eyebrow="OPP Studio" title="Built for broadcast nights"><p>Multi-camera coverage, commentary-driven production, custom overlays, player graphics, Stream Deck operation, and venue-friendly event coverage.</p></SectionTitle><ul className="checks"><li><Radio/> Live stream production</li><li><Camera/> Venue and feature table coverage</li><li><Users/> Player spotlights and graphics</li><li><Handshake/> Sponsor-focused promotion</li></ul></div><img className="studio" src={img('view-from-booth.jpg')}/></section>
