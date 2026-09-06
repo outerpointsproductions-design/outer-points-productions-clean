@@ -102,6 +102,18 @@ function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-si
 </section>  
 <section className="blueBand">
   <div>
+   <img
+  src={img('the-breaking-point-20-1.png')}
+  alt="The Breaking Point"
+  style={{
+    width: '100%',
+    maxWidth: '700px',
+    height: 'auto',
+    display: 'block',
+    margin: '0 auto 30px',
+    borderRadius: '16px'
+  }}
+/>
     <Trophy />
     <h2>The Breaking Point™</h2>
     <p>
