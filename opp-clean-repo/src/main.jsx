@@ -174,7 +174,7 @@ function App(){
         className="btn"
         href="/breaking-point"
       >
-        Enter The Breaking Point
+        Enter The Breaking Point Hub
       </a>
     </div>
 
