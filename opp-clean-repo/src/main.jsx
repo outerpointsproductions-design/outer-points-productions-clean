@@ -54,7 +54,54 @@ function Header(){
     </header>
   );
 }
-function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-signup')){setTimeout(()=>document.getElementById('badger-ko-signup')?.scrollIntoView({behavior:'smooth'}),300)}},[]);return <div id="top"><Header/><main>
+
+function BreakingPointPage() {
+  return (
+    <>
+      <Header />
+
+      <main className="wrap" style={{ paddingTop: '60px', paddingBottom: '80px' }}>
+        <SectionTitle
+          eyebrow="The Breaking Point™"
+          title="Meet The Contestants"
+        >
+          12 players. 12 stories. One survivor.
+        </SectionTitle>
+
+        <div className="breakingPointGrid">
+          <img src={img('1-Bill Larson.png')} alt="Bill Larson" />
+          <img src={img('2-Zander Rasmussen.png')} alt="Zander Rasmussen" />
+          <img src={img('3-Derek Tauschek.png')} alt="Derek Tauschek" />
+          <img src={img('4-Donny Bailey Jr..png')} alt="Donny Bailey Jr." />
+          <img src={img('5-Tony Vierra.png')} alt="Tony Vierra" />
+          <img src={img('6-Vincent Schroeder.png')} alt="Vincent Schroeder" />
+          <img src={img('7-Jeff Trentadue.png')} alt="Jeff Trentadue" />
+          <img src={img('8-Mike Benoy.png')} alt="Mike Benoy" />
+          <img src={img('9-Corey Cyert.png')} alt="Corey Cyert" />
+          <img src={img('10-JR Villegas.png')} alt="JR Villegas" />
+        </div>
+
+        <div style={{ marginTop: '40px' }}>
+          <a className="btn" href="/">
+            ← Back to Outer Points Productions
+          </a>
+        </div>
+      </main>
+    </>
+  );
+}
+function App(){
+  useEffect(() => {
+    if(window.location.pathname.includes('badger-ko-signup')){
+      setTimeout(() => document.getElementById('badger-ko-signup')?.scrollIntoView({behavior:'smooth'}), 300);
+    }
+  },[]);
+
+  if(window.location.pathname === '/breaking-point'){
+    return <BreakingPointPage />;
+  }
+
+  return (
 <section className="hero">
  <div className="heroBg"><img src={img('booth.jpg')}/></div><div className="heroShade"/>
  <div className="heroContent"><img className="heroLogo" src={img('opp-12.png')}/><div className="pill">Live Pool Streaming • Tournament Media • Wisconsin Billiards</div><h1>Pool deserves an even bigger stage. OPP brings it to life.</h1><p>Outer Points Productions creates professional live streams, player spotlights, tournament graphics, sponsor exposure, and high-energy billiards content for fans, players, venues, and brands.</p><div className="actions"><a className="btn primary" href="https://youtube.com/@outerpointsproductions" target="_blank"><Play size={18}/> Watch on YouTube</a><a className="btn" href="#contact"><Mail size={18}/> Book OPP</a></div></div>
@@ -123,7 +170,7 @@ function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-si
 
       <a
         className="btn"
-        href="#breaking-point"
+        href="/Sbreaking-point"
       >
         Enter The Breaking Point
       </a>
