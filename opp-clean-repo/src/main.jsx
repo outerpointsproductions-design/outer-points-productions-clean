@@ -47,7 +47,7 @@ function Header(){
         <a href="https://signup.outerpointsproductions.com" target="_blank" rel="noopener noreferrer">
           Badger KO Signup
         </a>
-        <a href="#champions-hall">Champions Hall</a>
+        <a href="/champions-hall">Champions Hall</a>
         <a href="#sponsors">Sponsors</a>
         <a href="#media">Media</a>
         <a href="#contact">Contact</a>
