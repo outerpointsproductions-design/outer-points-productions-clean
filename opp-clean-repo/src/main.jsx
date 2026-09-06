@@ -131,11 +131,11 @@ function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-si
 
    <div
   style={{
-    flex: '0 1 28%',
+    flex: '0 1 32%',
     marginLeft: 'auto',
     display: 'flex',
     alignItems: 'center',
-    justifyContent: 'center'
+    justifyContent: 'flex-end'
   }}
 >
       <img
@@ -143,7 +143,7 @@ function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-si
         alt="The Breaking Point"
         style={{
           width: '100%',
-          maxWidth: '380px',
+          maxWidth: '420px',
           height: 'auto',
           display: 'block',
           marginLeft: 'auto',
