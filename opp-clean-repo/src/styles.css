@@ -87,3 +87,41 @@
   letter-spacing: 0.5px;
   text-transform: uppercase;
 }
+.koTournamentGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  margin-top: 30px;
+}
+
+.koTournamentCard {
+  cursor: pointer;
+  transition: transform 0.25s ease;
+}
+
+.koTournamentCard:hover {
+  transform: translateY(-6px);
+}
+
+.koTournamentCard img {
+  width: 100%;
+  display: block;
+  border-radius: 16px;
+}
+
+.koTournamentCard h3 {
+  text-align: center;
+  margin-top: 12px;
+}
+
+@media (max-width: 900px) {
+  .koTournamentGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .koTournamentGrid {
+    grid-template-columns: 1fr;
+  }
+}
