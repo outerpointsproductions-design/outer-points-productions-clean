@@ -175,47 +175,6 @@ function ChampionsHallPage() {
         </SectionTitle>
 
       <h2 style={{ marginTop: '40px' }}>
-  Select A KO Tournament
-</h2>
-
-<div className="koTournamentGrid">
-  {koTournaments.map(([name,p]) =>
-    <div
-      className="koTournamentCard"
-      key={name}
-    >
-      <img src={img(p)} alt={name} />
-      <h3>{name}</h3>
-    </div>
-  )}
-</div>
-          {matchArchive.map(([t,s,p,link]) =>
-            <article
-              className="archiveCard"
-              key={t}
-              onClick={() => link && window.open(link, '_blank')}
-              style={{ cursor: link ? 'pointer' : 'default' }}
-            >
-              <img src={img(p)} />
-
-              <div>
-                <b>{t}</b>
-                <span>{s}</span>
-
-                {link && (
-                  <div
-                    style={{
-                      marginTop: '12px',
-                      fontWeight: '800'
-                    }}
-                  >
-                    WATCH MATCH ▶
-                  </div>
-                )}
-              </div>
-            </article>
-          )}
-        </div>
 
         <div style={{ marginTop: '50px' }}>
           <a className="btn" href="/">
