@@ -162,9 +162,18 @@ function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-si
     12 players. 12 stories. One survivor.
   </SectionTitle>
 
-  <div className="breakingPointGrid">
-    <img src={img('the-breaking-point-20-1.png')} alt="The Breaking Point" />
-  </div>
+<div className="breakingPointGrid">
+  <img src={img('1-Bill Larson.png')} alt="Bill Larson" />
+  <img src={img('2-Zander Rasmussen.png')} alt="Zander Rasmussen" />
+  <img src={img('3-Derek Tauschek.png')} alt="Derek Tauschek" />
+  <img src={img('4-Donny Bailey Jr..png')} alt="Donny Bailey Jr." />
+  <img src={img('5-Tony Vierra.png')} alt="Tony Vierra" />
+  <img src={img('6-Vincent Schroeder.png')} alt="Vincent Schroeder" />
+  <img src={img('7-Jeff Trentadue.png')} alt="Jeff Trentadue" />
+  <img src={img('8-Mike Benoy.png')} alt="Mike Benoy" />
+  <img src={img('9-Corey Cyert.png')} alt="Corey Cyert" />
+  <img src={img('10-JR Villegas.png')} alt="JR Villegas" />
+</div>
 </section>
 
 <section id="badger-ko-signup" className="signupSec">
