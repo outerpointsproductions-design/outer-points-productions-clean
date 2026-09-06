@@ -163,16 +163,16 @@ function App(){useEffect(()=>{if(window.location.pathname.includes('badger-ko-si
   </SectionTitle>
 
 <div className="breakingPointGrid">
-  <img src={img('1-Bill Larson.png')} alt="Bill Larson" />
-  <img src={img('2-Zander Rasmussen.png')} alt="Zander Rasmussen" />
-  <img src={img('3-Derek Tauschek.png')} alt="Derek Tauschek" />
-  <img src={img('4-Donny Bailey Jr..png')} alt="Donny Bailey Jr." />
-  <img src={img('5-Tony Vierra.png')} alt="Tony Vierra" />
-  <img src={img('6-Vincent Schroeder.png')} alt="Vincent Schroeder" />
-  <img src={img('7-Jeff Trentadue.png')} alt="Jeff Trentadue" />
-  <img src={img('8-Mike Benoy.png')} alt="Mike Benoy" />
-  <img src={img('9-Corey Cyert.png')} alt="Corey Cyert" />
-  <img src={img('10-JR Villegas.png')} alt="JR Villegas" />
+<img src="/assets/1-Bill%20Larson.png" alt="Bill Larson" />
+<img src="/assets/2-Zander%20Rasmussen.png" alt="Zander Rasmussen" />
+<img src="/assets/3-Derek%20Tauschek.png" alt="Derek Tauschek" />
+<img src="/assets/4-Donny%20Bailey%20Jr..png" alt="Donny Bailey Jr." />
+<img src="/assets/5-Tony%20Vierra.png" alt="Tony Vierra" />
+<img src="/assets/6-Vincent%20Schroeder.png" alt="Vincent Schroeder" />
+<img src="/assets/7-Jeff%20Trentadue.png" alt="Jeff Trentadue" />
+<img src="/assets/8-Mike%20Benoy.png" alt="Mike Benoy" />
+<img src="/assets/9-Corey%20Cyert.png" alt="Corey Cyert" />
+<img src="/assets/10-JR%20Villegas.png" alt="JR Villegas" />
 </div>
 </section>
 
