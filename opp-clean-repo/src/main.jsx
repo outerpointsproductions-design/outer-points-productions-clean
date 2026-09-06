@@ -430,7 +430,12 @@ href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSTA0AHyVAc_iVVHDc76oA2l_L
 
 
 <section id="media" className="wrap"><SectionTitle eyebrow="Media Center" title="Behind the booth, around the room, and on the stream">Show sponsors and venues what OPP production looks like from the inside.</SectionTitle><div className="gallery">{gallery.map(([t,p])=><figure key={t}><img src={img(p)}/><figcaption>{t}</figcaption></figure>)}</div></section>
-<section id="sponsors" className="sponsorSec"><SectionTitle eyebrow="Sponsor Network" title="Brands backing Wisconsin pool">OPP gives sponsors recurring exposure through live streams, social posts, event graphics, player features, and tournament coverage.</SectionTitle><div className="sponsorGrid">{sponsors.map(([n,p])=><div className="sponsor" key={n}><img src={img(p)}/><span>{n}</span></div>)}</div></section>
+<section id="sponsors" className="sponsorSec"><SectionTitle eyebrow="Sponsor Network" title="Brands backing Wisconsin pool">OPP gives sponsors recurring exposure through live streams, social posts, event graphics, player features, and tournament coverage.</SectionTitle><div className="sponsorGrid">{sponsors.map(([n,p,link])=><div
+  className="sponsor"
+  key={n}
+  onClick={() => link && window.open(link, '_blank')}
+  style={{ cursor: link ? 'pointer' : 'default' }}
+><img src={img(p)}/><span>{n}</span></div>)}</div></section>
 <section className="wrap split"><div><SectionTitle eyebrow="OPP Studio" title="Built for broadcast nights"><p>Multi-camera coverage, commentary-driven production, custom overlays, player graphics, Stream Deck operation, and venue-friendly event coverage.</p></SectionTitle><ul className="checks"><li><Radio/> Live stream production</li><li><Camera/> Venue and feature table coverage</li><li><Users/> Player spotlights and graphics</li><li><Handshake/> Sponsor-focused promotion</li></ul></div><img className="studio" src={img('view-from-booth.jpg')}/></section>
 <section id="contact" className="contact"><img src={img('opp-12.png')}/><div><p className="eyebrow">Book Outer Points Productions</p><h2>Bring OPP to your event, venue, or brand.</h2><p>For sponsorships, featured matches, tournament coverage, The Breaking Point™, KO Challenge events, or venue partnerships, reach out to Outer Points Productions.</p><div className="actions"><a className="btn primary" href="mailto:outerpointsproductions@gmail.com"><Mail size={18}/> Email OPP</a><a className="btn" href="https://youtube.com/@outerpointsproductions" target="_blank"><Play size={18}/> YouTube Channel</a></div></div></section>
  <footer><span>Outer Points Productions</span><span>Live pool streaming • tournament media • Wisconsin billiards</span></footer></>);}
