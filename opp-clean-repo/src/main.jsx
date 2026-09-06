@@ -69,17 +69,73 @@ function BreakingPointPage() {
           12 players. 12 stories. One survivor.
         </SectionTitle>
 
-        <div className="breakingPointGrid">
-          <img src={img('1-Bill Larson.png')} alt="Bill Larson" />
-          <img src={img('2-Zander Rasmussen.png')} alt="Zander Rasmussen" />
-          <img src={img('3-Derek Tauschek.png')} alt="Derek Tauschek" />
-          <img src={img('4-Donny Bailey Jr..png')} alt="Donny Bailey Jr." />
-          <img src={img('5-Tony Vierra.png')} alt="Tony Vierra" />
-          <img src={img('6-Vincent Schroeder.png')} alt="Vincent Schroeder" />
-          <img src={img('7-Jeff Trentadue.png')} alt="Jeff Trentadue" />
-          <img src={img('8-Mike Benoy.png')} alt="Mike Benoy" />
-          <img src={img('9-Corey Cyert.png')} alt="Corey Cyert" />
-          <img src={img('10-JR Villegas.png')} alt="JR Villegas" />
+       <div className="breakingPointGrid">
+
+  <div className="contestantCard">
+    <img src={img('1-Bill Larson.png')} alt="Bill Larson" />
+  </div>
+
+  <a
+    className="contestantCard videoCard"
+    href="https://youtu.be/FVZqMQW5gGQ"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img src={img('2-Zander Rasmussen.png')} alt="Zander Rasmussen" />
+    <span>WATCH ZANDER'S STORY ▶</span>
+  </a>
+
+  <div className="contestantCard">
+    <img src={img('3-Derek Tauschek.png')} alt="Derek Tauschek" />
+  </div>
+
+  <a
+    className="contestantCard videoCard"
+    href="https://youtu.be/Ps4GlJhp6o8"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img src={img('4-Donny Bailey Jr..png')} alt="Donny Bailey Jr." />
+    <span>WATCH DONNY'S STORY ▶</span>
+  </a>
+
+  <a
+    className="contestantCard videoCard"
+    href="https://youtu.be/TOTFRuguXPo"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img src={img('5-Tony Vierra.png')} alt="Tony Vierra" />
+    <span>WATCH TONY'S STORY ▶</span>
+  </a>
+
+  <div className="contestantCard">
+    <img src={img('6-Vincent Schroeder.png')} alt="Vincent Schroeder" />
+  </div>
+
+  <a
+    className="contestantCard videoCard"
+    href="https://youtu.be/2nsvG2LoeA4"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img src={img('7-Jeff Trentadue.png')} alt="Jeff Trentadue" />
+    <span>WATCH JEFF'S STORY ▶</span>
+  </a>
+
+  <div className="contestantCard">
+    <img src={img('8-Mike Benoy.png')} alt="Mike Benoy" />
+  </div>
+
+  <div className="contestantCard">
+    <img src={img('9-Corey Cyert.png')} alt="Corey Cyert" />
+  </div>
+
+  <div className="contestantCard">
+    <img src={img('10-JR Villegas.png')} alt="JR Villegas" />
+  </div>
+
+</div>
         </div>
 
         <div style={{ marginTop: '40px' }}>
