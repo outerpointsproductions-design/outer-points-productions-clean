@@ -447,7 +447,7 @@ href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSTA0AHyVAc_iVVHDc76oA2l_L
 <section id="sponsors" className="sponsorSec">
   <SectionTitle
     eyebrow="Sponsor Network"
-    title="Brands backing Wisconsin pool"
+    title="Brands Backing Wisconsin Pool"
   >
 Click on the sponsor logo to visit their website or Facebook page.
   </SectionTitle>
