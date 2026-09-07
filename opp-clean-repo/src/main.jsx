@@ -444,7 +444,7 @@ href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSTA0AHyVAc_iVVHDc76oA2l_L
     eyebrow="Sponsor Network"
     title="Brands backing Wisconsin pool"
   >
-    OPP gives sponsors recurring exposure through live streams, social media, and tournament coverage.
+Click on the sponsor logo to visit their website or Facebook page.
   </SectionTitle>
 
   <div className="sponsorGrid">
