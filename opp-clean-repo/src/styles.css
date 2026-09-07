@@ -393,6 +393,7 @@
 /* Trading card */
 .badgerKoPlayerFeature {
   margin-top: 30px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: flex-start;
