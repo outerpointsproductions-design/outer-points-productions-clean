@@ -363,3 +363,16 @@
 .oppStudio {
   padding-top: 20px;
 }
+.badgerKoPlayerFeature {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.badgerKoPlayerFeature img {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  display: block;
+  border-radius: 16px;
+}
