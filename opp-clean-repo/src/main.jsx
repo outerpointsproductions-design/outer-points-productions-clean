@@ -433,9 +433,9 @@ href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSTA0AHyVAc_iVVHDc76oA2l_L
   
      
   </div>
- </div>
- 
 </section>
+ 
+
 
 
 <section id="media" className="wrap"><SectionTitle eyebrow="Media Center" title="Behind the booth, around the room, and on the stream">Show sponsors and venues what OPP production looks like from the inside.</SectionTitle><div className="gallery">{gallery.map(([t,p])=><figure key={t}><img src={img(p)}/><figcaption>{t}</figcaption></figure>)}</div></section>
