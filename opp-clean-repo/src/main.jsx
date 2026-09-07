@@ -439,9 +439,8 @@ href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSTA0AHyVAc_iVVHDc76oA2l_L
  
 
 
-
-<section id="media" className="wrap"><SectionTitle eyebrow="Media Center" title="Behind the booth, around the room, and on the stream">Show sponsors and venues what OPP production looks like from the inside.</SectionTitle><div className="gallery">{gallery.map(([t,p])=><figure key={t}><img src={img(p)}/><figcaption>{t}</figcaption></figure>)}</div></section>
 <section id="sponsors" className="sponsorSec"><SectionTitle eyebrow="Sponsor Network" title="Brands backing Wisconsin pool">OPP gives sponsors recurring exposure through live streams, social posts, event graphics, player features, and tournament coverage.</SectionTitle><div className="sponsorGrid">{sponsors.map(([n,p,link])=><div
+<section id="media" className="wrap"><SectionTitle eyebrow="Media Center" title="Behind the booth, around the room, and on the stream">Show sponsors and venues what OPP production looks like from the inside.</SectionTitle><div className="gallery">{gallery.map(([t,p])=><figure key={t}><img src={img(p)}/><figcaption>{t}</figcaption></figure>)}</div></section>
   className="sponsor"
   key={n}
   onClick={() => link && window.open(link, '_blank')}
