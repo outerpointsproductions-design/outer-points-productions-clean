@@ -363,7 +363,12 @@ href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSTA0AHyVAc_iVVHDc76oA2l_L
 >
   Register for The Badger KO
 </a>
-
+<div className="badgerKoPlayerFeature">
+  <img
+    src={img('Badger KO Trading Cards.png')}
+    alt="Roger Pregler - Badger KO Contestant"
+  />
+</div>
   
 
 </div>
@@ -507,12 +512,7 @@ Click on the sponsor logo to visit their website or Facebook page.
       <span>Sponsor-focused promotion</span>
     </div>
   </div>
- <div className="badgerKoPlayerFeature">
-  <img
-    src={img('Badger KO Trading Cards.png')}
-    alt="Roger Pregler - Badger KO Contestant"
-  />
-</div>
+
 </section>
 <section id="contact" className="contact"><img src={img('opp-12.png')}/><div><p className="eyebrow">Book Outer Points Productions</p><h2>Bring OPP to your event, venue, or brand.</h2><p>For sponsorships, featured matches, tournament coverage, The Breaking Point™, KO Challenge events, or venue partnerships, reach out to Outer Points Productions.</p><div className="actions"><a className="btn primary" href="mailto:outerpointsproductions@gmail.com"><Mail size={18}/> Email OPP</a><a className="btn" href="https://youtube.com/@outerpointsproductions" target="_blank"><Play size={18}/> YouTube Channel</a></div></div></section>
  <footer><span>Outer Points Productions</span><span>Live pool streaming • tournament media • Wisconsin billiards</span></footer></>);
