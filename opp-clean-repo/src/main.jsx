@@ -425,7 +425,7 @@ href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSTA0AHyVAc_iVVHDc76oA2l_L
   <h3>Official Rules</h3>
   <p>
     For the complete rulebook and tournament policies, click the
-    "View Full Format & Rules" button above.
+    "View Full Format & Rules" button to the left.
   </p>
 
 </div>
