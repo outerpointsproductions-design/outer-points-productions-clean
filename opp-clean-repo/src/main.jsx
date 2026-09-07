@@ -320,7 +320,7 @@ function App(){
 
 
 <section id="badger-ko-signup" className="signupSec">
-  <div className="badgerKoLeft"><div className="signupArt"><img src={img('the-badger-ko-3.png')}/></div>
+  <div className="badgerKoLeftPanel"><div className="signupArt"><img src={img('the-badger-ko-3.png')}/></div>
   <div className="signupCard">
     <p className="eyebrow">Player Registration</p>
     <h2>The Badger KO Signup</h2>
