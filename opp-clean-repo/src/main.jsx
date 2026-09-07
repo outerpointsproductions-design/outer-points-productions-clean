@@ -469,6 +469,14 @@ Click on the sponsor logo to visit their website or Facebook page.
   >
     Show sponsors and venues what OPP production looks like.
   </SectionTitle>
+ <div className="mediaGallery">
+  {gallery.map(([title,p]) =>
+    <div className="mediaGalleryCard" key={title}>
+      <img src={img(p)} alt={title} />
+      <span>{title}</span>
+    </div>
+  )}
+</div>
 </section>
 <section className="wrap oppStudio">
   <SectionTitle
