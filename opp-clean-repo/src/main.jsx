@@ -17,7 +17,7 @@ const champions=[
  ['Zander Rasmussen','KO 1.6 Champion','zander-4.jpg'],['Charlie Wolfe','KO 1.2 Champion','matches-by-name-12-charlie-wolfe.png'],['Jason Harlan','KO 1.3 Champion','matches-by-name-11-jason-harlan.png'],['Gretchen Froelich','KO 1.4 Runner Up','ko-1-4-10.png'],['Lyle Goebel','KO 2.1 Champion','ko-2-1-11.png'],['Grey Siech','KO 3.0 Champion','matches-by-name-3-grey-siech-champion.png']
 ];
 const gallery=[
- ['Broadcast Booth','booth.jpg'],['Venue Feature Table','thumbnail-img-9248.jpg'],['Varsity Club Diamond Room','thumbnail-img-9246.jpg'],['View From Booth','view-from-booth.jpg'],['Challenge Chips','challenge-chips.jpg'],['Cheddar’s Table','cheddars-table.png']
+ ['Broadcast Booth','booth.jpg'],['Venue Feature Table','thumbnail-img-9248.jpg'],['Varsity Club Diamond Room','thumbnail-img-9246.jpg'],['View From Booth','Booth View.jpeg'],['Challenge Chips','challenge-chips.jpg'],['Cheddar’s Table','cheddars-table.png']
 ];
 const matchArchive=[
 ['KO 1.1 Finals','Mike Schultz vs. Al Holden','matches-by-name-2-1-1-finals.jpg','https://youtube.com/live/lNrcSRq71mo'],['Ultimate KO Challenge','Kenny Engichy vs. Rudy McGill','kenny-and-rudy-png.png','https://youtube.com/live/LR_ybag8LoA?feature=share'],['Ultimate KO Finals','Patrick Racette vs. Jeremy Fedkenheuer','ultimate-ko-10-ball-jeremy-fedkenheuer-vs-patrick-racette.png'],['KO Challenge Finals','Tim Stockinger vs. Tarek Hamdan','finals-1.jpg','https://youtube.com/live/Ar6Yckq_AYs?feature=share'],['KO 1.5 Finals','Julie Fleming • Damien Bettinger • Randy Thiry','ko-1-5-7-6-1.png','https://youtube.com/live/DQ8IHmruxjk']
