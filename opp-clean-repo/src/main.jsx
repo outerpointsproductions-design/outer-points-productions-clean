@@ -335,7 +335,7 @@ function App(){
 </div><div className="signupCard">
     <p className="eyebrow">Player Registration</p>
     <h2>The Badger KO Signup</h2>
-    <p className="signupIntro">Wisconsin residents only. 625 Fargo & under. Fill this out to get on the player interest/sign-up list. Entries will be sent to Outer Points Productions.</p><div style={{marginBottom:'20px'}}>
+    <p className="signupIntro">Wisconsin residents only. 625 Fargo & under. Fill this out to get on the player interest/sign-up list. Entries will be sent to Outer Points Productions.</p>
  <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
 
   <a
