@@ -289,3 +289,32 @@
     grid-row: 3;
   }
 }
+.oppStudio {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.oppStudioGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 28px;
+  max-width: 900px;
+}
+
+.oppStudioItem {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 20px 22px;
+  border: 1px solid rgba(58, 170, 255, 0.28);
+  border-radius: 18px;
+  background: rgba(10, 18, 28, 0.55);
+  font-weight: 700;
+}
+
+@media (max-width: 700px) {
+  .oppStudioGrid {
+    grid-template-columns: 1fr;
+  }
+}
