@@ -356,3 +356,10 @@
     grid-template-columns: 1fr;
   }
 }
+#media {
+  padding-bottom: 20px;
+}
+
+.oppStudio {
+  padding-top: 20px;
+}
