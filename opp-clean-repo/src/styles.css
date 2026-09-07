@@ -125,3 +125,42 @@
     grid-template-columns: 1fr;
   }
 }
+/* BADGER KO TWO COLUMN LAYOUT */
+
+#badger-ko-signup.signupSec {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 32px;
+  align-items: start;
+}
+
+.badgerKoLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.badgerKoLeft .signupArt {
+  width: 100%;
+}
+
+.badgerKoLeft .signupArt img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.badgerKoLeft .signupCard {
+  width: 100%;
+}
+
+#badger-ko-signup .rulesBox {
+  width: 100%;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  #badger-ko-signup.signupSec {
+    grid-template-columns: 1fr;
+  }
+}
