@@ -465,12 +465,41 @@ Click on the sponsor logo to visit their website or Facebook page.
 <section id="media" className="wrap">
   <SectionTitle
     eyebrow="Media Center"
-    title="Behind the booth, around the room, and on the stream"
+    title="Inside the booth, around the room, and on the stream"
   >
     Show sponsors and venues what OPP production looks like.
   </SectionTitle>
 </section>
-<section className="wrap split"><div><SectionTitle eyebrow="OPP Studio" title="Built for broadcast nights"><p>Multi-camera coverage, commentary-driven production, custom overlays, player graphics, Stream Deck operation, and venue-friendly event coverage.</p></SectionTitle><ul className="checks"><li><Radio/> Live stream production</li><li><Camera/> Venue and feature table coverage</li><li><Users/> Player spotlights and graphics</li><li><Handshake/> Sponsor-focused promotion</li></ul></div><img className="studio" src={img('view-from-booth.jpg')}/></section>
+<section className="wrap oppStudio">
+  <SectionTitle
+    eyebrow="OPP Studio"
+    title="Built for broadcast nights"
+  >
+    Professional production built specifically for pool.
+  </SectionTitle>
+
+  <div className="oppStudioGrid">
+    <div className="oppStudioItem">
+      <Radio size={28} />
+      <span>Live stream production</span>
+    </div>
+
+    <div className="oppStudioItem">
+      <Camera size={28} />
+      <span>Venue and feature table coverage</span>
+    </div>
+
+    <div className="oppStudioItem">
+      <Users size={28} />
+      <span>Player spotlights and graphics</span>
+    </div>
+
+    <div className="oppStudioItem">
+      <Handshake size={28} />
+      <span>Sponsor-focused promotion</span>
+    </div>
+  </div>
+</section>
 <section id="contact" className="contact"><img src={img('opp-12.png')}/><div><p className="eyebrow">Book Outer Points Productions</p><h2>Bring OPP to your event, venue, or brand.</h2><p>For sponsorships, featured matches, tournament coverage, The Breaking Point™, KO Challenge events, or venue partnerships, reach out to Outer Points Productions.</p><div className="actions"><a className="btn primary" href="mailto:outerpointsproductions@gmail.com"><Mail size={18}/> Email OPP</a><a className="btn" href="https://youtube.com/@outerpointsproductions" target="_blank"><Play size={18}/> YouTube Channel</a></div></div></section>
  <footer><span>Outer Points Productions</span><span>Live pool streaming • tournament media • Wisconsin billiards</span></footer></>);
 }
