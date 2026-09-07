@@ -465,7 +465,7 @@ Click on the sponsor logo to visit their website or Facebook page.
 <section id="media" className="wrap">
   <SectionTitle
     eyebrow="Media Center"
-    title="Inside the booth, around the room, and on the stream"
+    title="The Production Behind The Game"
   >
     Show sponsors and venues what OPP production looks like.
   </SectionTitle>
@@ -481,7 +481,7 @@ Click on the sponsor logo to visit their website or Facebook page.
 <section className="wrap oppStudio">
   <SectionTitle
     eyebrow="OPP Studio"
-    title="Built for broadcast nights"
+    title="More Than a Stream"
   >
     Professional production built specifically for pool.
   </SectionTitle>
