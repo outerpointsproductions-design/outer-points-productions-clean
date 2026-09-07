@@ -319,7 +319,7 @@ function App(){
 </section>
 
 
-<section id="badger-ko-signup" className="signupSec">
+
 <section
   id="badger-ko-signup"
   className="signupSec"
@@ -432,7 +432,7 @@ href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSTA0AHyVAc_iVVHDc76oA2l_L
      
   
      
-  </div>
+
 </section>
  
 
