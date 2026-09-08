@@ -240,7 +240,12 @@ function App(){
    
 <section className="hero">
  <div className="heroBg"><img src={img('booth.jpg')}/></div><div className="heroShade"/>
- <div className="heroContent"><div style={{ display: 'flex', alignItems: 'center', gap: '30px' }}>
+style={{
+  display: 'flex',
+  alignItems: 'center',
+  gap: '30px',
+  transform: 'translateY(-70px)'
+}}
   <img
     src={img('opp-12.png')}
     alt="Outer Points Productions"
