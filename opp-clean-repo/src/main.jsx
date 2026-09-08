@@ -253,7 +253,7 @@ function App(){
   <img
     src={img('opp-12.png')}
     alt="Outer Points Productions"
-    style={{ width: '270px', height: 'auto' }}
+    style={{ width: '310px', height: 'auto' }}
   />
   <span
   style={{
