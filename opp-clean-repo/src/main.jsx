@@ -46,22 +46,7 @@ function SectionTitle({ eyebrow, title, children }) {
 function Header(){
   return (
     <header className="nav">
-<a
-  className="brand"
-  href="https://youtube.com/@outerpointsproductions"
-  target="_blank"
-  rel="noopener noreferrer"
->
- <img
-  src={img('opp-12.png')}
-  alt="Outer Points Productions on YouTube"
-  style={{ width: '90px', height: '90px', objectFit: 'contain' }}
-/>
-<span>Outer Points Productions</span>
-</a>
-
       <nav>
-        <a href="#series">Series</a>
        <a href="/breaking-point">The Breaking Point</a>
         <a
   href="https://docs.google.com/forms/d/e/1FAIpQLSdkBlQjMkTC79hOz77RNq_OfT7RVbjccFdmoNPh_49YOLIcMg/viewform?usp=publish-editor"
