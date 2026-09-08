@@ -240,7 +240,16 @@ function App(){
    
 <section className="hero">
  <div className="heroBg"><img src={img('booth.jpg')}/></div><div className="heroShade"/>
- <div className="heroContent"><img className="heroLogo" src={img('opp-12.png')}/><div className="pill">Live Pool Streaming • Tournament Media • Wisconsin Billiards</div><h1>Pool deserves an even bigger stage. OPP brings it to life.</h1><p>Outer Points Productions creates professional live streams, player spotlights, tournament graphics, sponsor exposure, and high-energy billiards content for fans, players, venues, and brands.</p><div className="actions"><a className="btn primary" href="https://youtube.com/@outerpointsproductions" target="_blank"><Play size={18}/> Watch on YouTube</a></div></div>
+ <div className="heroContent"><div style={{ display: 'flex', alignItems: 'center', gap: '24px' }}>
+  <img
+    src={img('opp-12.png')}
+    alt="Outer Points Productions"
+    style={{ width: '165px', height: 'auto' }}
+  />
+  <span style={{ color: 'white', fontSize: '34px', fontWeight: '800' }}>
+    Outer Points Productions
+  </span>
+</div><div className="pill">Live Pool Streaming • Tournament Media • Wisconsin Billiards</div><h1>Pool deserves an even bigger stage. OPP brings it to life.</h1><p>Outer Points Productions creates professional live streams, player spotlights, tournament graphics, sponsor exposure, and high-energy billiards content for fans, players, venues, and brands.</p><div className="actions"><a className="btn primary" href="https://youtube.com/@outerpointsproductions" target="_blank"><Play size={18}/> Watch on YouTube</a></div></div>
  <div className="heroPanel"><img src={img('the-breaking-point-20-1.png')}/><h3>The Breaking Point™</h3><p>Original challenge-show pool content built by Outer Points Productions.</p></div>
 </section>
 <section className="stats">{stats.map(([a,b])=><div className="stat" key={a}><b>{a}</b><span>{b}</span></div>)}</section>
