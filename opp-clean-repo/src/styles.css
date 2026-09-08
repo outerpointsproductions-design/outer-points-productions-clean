@@ -907,3 +907,44 @@
     text-align: center;
   }
 }
+@media (max-width: 640px) {
+  .blueBand > div {
+    display: flex !important;
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+    gap: 24px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .blueBand > div > div {
+    flex: 1 1 auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .blueBand h2 {
+    width: 100%;
+    max-width: 100%;
+    font-size: 36px !important;
+    line-height: 1.08 !important;
+    white-space: normal !important;
+  }
+
+  .blueBand p {
+    width: 100%;
+    max-width: 100%;
+    font-size: 18px !important;
+    line-height: 1.5 !important;
+    white-space: normal !important;
+  }
+
+  .blueBand .btn {
+    width: 100%;
+    white-space: normal !important;
+    text-align: center;
+  }
+}
