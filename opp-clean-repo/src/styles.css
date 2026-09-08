@@ -948,3 +948,19 @@
     text-align: center;
   }
 }
+@media (max-width: 640px) {
+  .signupSec {
+    width: calc(100% - 32px) !important;
+    max-width: calc(100% - 32px) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .signupArt,
+  .signupCard {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
