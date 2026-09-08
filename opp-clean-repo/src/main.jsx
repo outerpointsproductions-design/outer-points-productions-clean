@@ -249,6 +249,7 @@ function App(){
   alignItems: 'center',
   gap: '30px',
   transform: 'translateY(-50px)'
+ marginBottom: '-140px'
 }}>
   <img
     src={img('opp-12.png')}
