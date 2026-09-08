@@ -563,3 +563,16 @@
     padding: 22px;
   }
 }
+.tournamentRequestBox .btn {
+  background: #5ec8ff;
+  color: #03111c;
+  border: 2px solid #8fdaff;
+  font-weight: 900;
+  box-shadow: 0 0 20px rgba(94, 200, 255, 0.35);
+}
+
+.tournamentRequestBox .btn:hover {
+  background: #8fdaff;
+  transform: translateY(-2px);
+  box-shadow: 0 0 28px rgba(94, 200, 255, 0.55);
+}
