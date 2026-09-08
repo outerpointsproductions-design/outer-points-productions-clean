@@ -216,6 +216,17 @@ function ChampionsHallPage() {
 }
 function App(){
  const [fargoInput, setFargoInput] = useState('');
+ const [requestForm, setRequestForm] = useState({
+  name: '',
+  email: '',
+  fargo: '',
+  game: '',
+  format: '',
+  fargoRange: '',
+  fieldSize: '',
+  location: '',
+  notes: ''
+});
   useEffect(() => {
     if(window.location.pathname.includes('badger-ko-signup')){
       setTimeout(() => document.getElementById('badger-ko-signup')?.scrollIntoView({behavior:'smooth'}), 300);
@@ -395,7 +406,142 @@ function App(){
     </div>
   )}
 </section>
+<section id="tournament-request" className="wrap tournamentRequest">
+  <SectionTitle
+    eyebrow="Tournament Request"
+    title="Have an Idea for a Tournament?"
+  >
+    Don't see the tournament you're looking for? Tell us what you'd like to play,
+    and help shape a future Outer Points Productions event.
+  </SectionTitle>
 
+  <div className="tournamentRequestBox">
+  <h3>Build Your Tournament Idea</h3>
+
+  <div className="requestFormGrid">
+
+    <input
+      type="text"
+      placeholder="Your Name"
+      value={requestForm.name}
+      onChange={(e) =>
+        setRequestForm({...requestForm, name: e.target.value})
+      }
+    />
+
+    <input
+      type="email"
+      placeholder="Your Email"
+      value={requestForm.email}
+      onChange={(e) =>
+        setRequestForm({...requestForm, email: e.target.value})
+      }
+    />
+
+    <input
+      type="number"
+      placeholder="Your FargoRate"
+      value={requestForm.fargo}
+      onChange={(e) =>
+        setRequestForm({...requestForm, fargo: e.target.value})
+      }
+    />
+
+    <select
+      value={requestForm.game}
+      onChange={(e) =>
+        setRequestForm({...requestForm, game: e.target.value})
+      }
+    >
+      <option value="">Preferred Game</option>
+      <option value="8-Ball">8-Ball</option>
+      <option value="9-Ball">9-Ball</option>
+      <option value="10-Ball">10-Ball</option>
+      <option value="One Pocket">One Pocket</option>
+      <option value="Other">Other</option>
+    </select>
+
+    <select
+      value={requestForm.format}
+      onChange={(e) =>
+        setRequestForm({...requestForm, format: e.target.value})
+      }
+    >
+      <option value="">Tournament Format</option>
+      <option value="Singles">Singles</option>
+      <option value="Scotch Doubles">Scotch Doubles</option>
+      <option value="Team">Team</option>
+      <option value="Other">Other</option>
+    </select>
+
+    <input
+      type="text"
+      placeholder="Desired Fargo Cap / Range"
+      value={requestForm.fargoRange}
+      onChange={(e) =>
+        setRequestForm({...requestForm, fargoRange: e.target.value})
+      }
+    />
+
+    <input
+      type="number"
+      placeholder="Preferred Field Size"
+      value={requestForm.fieldSize}
+      onChange={(e) =>
+        setRequestForm({...requestForm, fieldSize: e.target.value})
+      }
+    />
+
+    <input
+      type="text"
+      placeholder="City / Preferred Venue"
+      value={requestForm.location}
+      onChange={(e) =>
+        setRequestForm({...requestForm, location: e.target.value})
+      }
+    />
+
+  </div>
+
+  <textarea
+    placeholder="Tell us about the tournament you'd like to see..."
+    value={requestForm.notes}
+    onChange={(e) =>
+      setRequestForm({...requestForm, notes: e.target.value})
+    }
+  />
+
+  <button
+    className="btn"
+    type="button"
+    onClick={() => {
+      const subject = encodeURIComponent('OPP Tournament Request');
+
+      const body = encodeURIComponent(
+`TOURNAMENT REQUEST
+
+Name: ${requestForm.name}
+Email: ${requestForm.email}
+FargoRate: ${requestForm.fargo}
+
+Preferred Game: ${requestForm.game}
+Format: ${requestForm.format}
+Desired Fargo Cap / Range: ${requestForm.fargoRange}
+Preferred Field Size: ${requestForm.fieldSize}
+City / Venue: ${requestForm.location}
+
+Tournament Idea:
+${requestForm.notes}`
+      );
+
+      window.location.href =
+        `mailto:outerpointsproductions@gmail.com?subject=${subject}&body=${body}`;
+    }}
+  >
+    Submit Tournament Request
+  </button>
+</div>
+</section>
 <section
   id="badger-ko-signup"
   className="signupSec"
