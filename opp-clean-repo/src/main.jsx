@@ -22,7 +22,7 @@ const gallery=[
 const matchArchive=[
 ['KO 1.1 Finals','Mike Schultz vs. Al Holden','matches-by-name-2-1-1-finals.jpg','https://youtube.com/live/lNrcSRq71mo'],['Ultimate KO Challenge','Kenny Engichy vs. Rudy McGill','kenny-and-rudy-png.png','https://youtube.com/live/LR_ybag8LoA?feature=share'],['Ultimate KO Finals','Patrick Racette vs. Jeremy Fedkenheuer','ultimate-ko-10-ball-jeremy-fedkenheuer-vs-patrick-racette.png'],['KO Challenge Finals','Tim Stockinger vs. Tarek Hamdan','finals-1.jpg','https://youtube.com/live/Ar6Yckq_AYs?feature=share'],['KO 1.5 Finals','Julie Fleming • Damien Bettinger • Randy Thiry','ko-1-5-7-6-1.png','https://youtube.com/live/DQ8IHmruxjk']
 ];
-const stats=[['Events & Series','KO Challenge • Masters • Breaking Point'],['Broadcast Style','Multi-camera, commentary, overlays'],['Core Venue','The Varsity Club • Oshkosh, WI'],['Mission','Grow Wisconsin pool through media']];
+const stats=[['Events & Series','KO Challenge • Masters • Breaking Point'],['Broadcast Style','Multi-camera, commentary, overlays'],['Core Venue','The Varsity Club • Oshkosh, WI'],['Mission','Grow Wisconsin Pool Through Media']];
 const tournamentOptions = [
   {
     name: 'Badger KO',
@@ -273,7 +273,7 @@ function App(){
 </section>
 <section className="stats">{stats.map(([a,b])=><div className="stat" key={a}><b>{a}</b><span>{b}</span></div>)}</section>
 <section id="series" className="wrap">
-  <SectionTitle eyebrow="Featured Programming" title="A full Wisconsin pool media network">
+  <SectionTitle eyebrow="Featured Programming" title="A Full Wisconsin Pool Media Network">
     From weekly feature matches to full tournament stories, OPP turns pool events into broadcast-ready entertainment.
   </SectionTitle>
 <div className="cards3">
