@@ -89,13 +89,13 @@ function BreakingPointPage() {
 
   <p>
     The Breaking Point is an original pool competition series created by
-    Outer Points Productions. Twelve contestants face intense, original
-    challenges designed to test far more than shot-making—including strategy,
+    Outer Points Productions. 12 contestants face intense, original
+    challenges designed to test far more than shot making, including strategy,
     safety play, adaptability, decision-making, and composure under pressure.
   </p>
 
   <p style={{ marginBottom: 0 }}>
-    Players are eliminated throughout the competition until only one survivor
+    11 Contestants are eliminated throughout the competition until only 1 survivor
     remains to become The Breaking Point champion.
   </p>
 </div>
