@@ -52,8 +52,12 @@ function Header(){
   target="_blank"
   rel="noopener noreferrer"
 >
-  <img src={img('opp-12.png')} />
-  <span>Outer Points Productions on YouTube</span>
+ <img
+  src={img('opp-12.png')}
+  alt="Outer Points Productions"
+  style={{ width: '90px', height: '90px', objectFit: 'contain' }}
+/>
+<span>Outer Points Productions</span>
 </a>
 
       <nav>
