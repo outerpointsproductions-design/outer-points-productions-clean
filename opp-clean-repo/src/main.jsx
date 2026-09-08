@@ -93,7 +93,31 @@ function BreakingPointPage() {
     challenges designed to test far more than shot making, including strategy,
     safety play, adaptability, decision-making, and composure under pressure.
    The Breaking Point would not be possible without the incredible sponsors who believed in this vision from the beginning. Your support helps us create an original competition that gives players a bigger stage, showcases their stories, and brings something fresh and exciting to the pool community. We are genuinely grateful to every sponsor who helped bring The Breaking Point to life.
+<div style={{ marginTop: '32px' }}>
+  <h3 style={{ marginBottom: '8px' }}>Proudly Supported By</h3>
 
+  <p style={{ marginTop: 0 }}>
+    Click a sponsor’s logo to visit their website or Facebook page.
+  </p>
+
+  <div className="sponsorGrid">
+    {sponsors
+  .filter(([n]) => n === 'JB Cases' || n === 'Onboard Sportswear')
+  .map(([n, p, link]) => (
+      <a
+        className="sponsor"
+        key={n}
+        href={link}
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ cursor: 'pointer', textDecoration: 'none' }}
+      >
+        <img src={img(p)} alt={n} />
+        <span>{n}</span>
+      </a>
+    ))}
+  </div>
+</div>
   </p>
 
   <p style={{ marginBottom: 0 }}>
