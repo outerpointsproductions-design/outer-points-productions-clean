@@ -31,20 +31,7 @@ const tournamentOptions = [
     description: 'Wisconsin residents only • $265 entry',
     signup: 'https://docs.google.com/forms/d/e/1FAIpQLSdkBlQjMkTC79hOz77RNq_OfT7RVbjccFdmoNPh_49YOLIcMg/viewform?usp=publish-editor'
   },
-  {
-    name: 'KO 1.5',
-    minFargo: 0,
-    maxFargo: 575,
-    description: '575 Fargo & under',
-    signup: '#'
-  },
-  {
-    name: 'KO 1.6',
-    minFargo: 0,
-    maxFargo: 625,
-    description: '625 Fargo & under',
-    signup: '#'
-  }
+
 ];
 function SectionTitle({ eyebrow, title, children }) {
   return (
