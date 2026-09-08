@@ -424,3 +424,69 @@
     max-width: 420px;
   }
 }
+.tournamentFinder {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.fargoFinderBox {
+  max-width: 520px;
+  margin-top: 28px;
+}
+
+.fargoFinderBox label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.fargoFinderBox input {
+  width: 100%;
+  padding: 16px 18px;
+  border-radius: 14px;
+  border: 1px solid rgba(58, 170, 255, 0.35);
+  background: rgba(10, 18, 28, 0.8);
+  color: white;
+  font-size: 18px;
+  outline: none;
+}
+
+.fargoFinderBox input:focus {
+  border-color: rgba(58, 170, 255, 0.8);
+}
+
+.tournamentResults {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+  margin-top: 32px;
+}
+
+.tournamentFinderCard {
+  padding: 24px;
+  border: 1px solid rgba(58, 170, 255, 0.28);
+  border-radius: 20px;
+  background: rgba(10, 18, 28, 0.65);
+}
+
+.tournamentFinderCard h3 {
+  margin: 8px 0 10px;
+  font-size: 28px;
+}
+
+.tournamentFinderCard p {
+  margin-bottom: 16px;
+}
+
+.tournamentFargoRange {
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #5ec8ff;
+}
+
+@media (max-width: 900px) {
+  .tournamentResults {
+    grid-template-columns: 1fr;
+  }
+}
