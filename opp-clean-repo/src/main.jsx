@@ -240,7 +240,7 @@ function App(){
    
 <section className="hero">
  <div className="heroBg"><img src={img('booth.jpg')}/></div><div className="heroShade"/>
-style={{
+<div style={{
   display: 'flex',
   alignItems: 'center',
   gap: '30px',
