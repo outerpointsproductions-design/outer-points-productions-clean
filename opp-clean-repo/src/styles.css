@@ -848,3 +848,62 @@
 .youtubeHeader:hover {
   background: #cc0000;
 }
+@media (max-width: 640px) {
+  .signupSec {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 24px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .signupArt,
+  .signupCard,
+  .badgerKoPlayerFeature {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    overflow: hidden;
+  }
+
+  .signupArt img,
+  .badgerKoPlayerFeature img {
+    display: block;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    object-fit: contain;
+  }
+
+  h1,
+  h2,
+  h3,
+  .sectionTitle h2,
+  .cards3 h3 {
+    white-space: normal !important;
+    word-break: normal !important;
+    overflow-wrap: break-word !important;
+  }
+
+  .sectionTitle h2,
+  .cards3 h3 {
+    font-size: clamp(32px, 10vw, 46px) !important;
+    line-height: 1.08 !important;
+  }
+
+  .signupCard h2 {
+    font-size: 38px !important;
+    line-height: 1.08 !important;
+  }
+
+  .signupCard p,
+  .signupCard li {
+    font-size: 18px !important;
+    line-height: 1.5 !important;
+  }
+
+  .signupCard .btn {
+    width: 100%;
+    text-align: center;
+  }
+}
