@@ -248,7 +248,7 @@ function App(){
   display: 'flex',
   alignItems: 'center',
   gap: '30px',
-  transform: 'translateY(-50px)'
+  transform: 'translateY(-50px)',
  marginBottom: '-140px'
 }}>
   <img
