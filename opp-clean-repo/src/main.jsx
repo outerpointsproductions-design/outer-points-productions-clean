@@ -248,7 +248,7 @@ function App(){
   display: 'flex',
   alignItems: 'center',
   gap: '30px',
-  transform: 'translateY(-90px)'
+  transform: 'translateY(-50px)'
 }}>
   <img
     src={img('opp-12.png')}
