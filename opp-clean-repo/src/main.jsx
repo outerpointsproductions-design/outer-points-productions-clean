@@ -46,17 +46,14 @@ function SectionTitle({ eyebrow, title, children }) {
 function Header(){
   return (
     <header className="nav">
-      <a className="brand" href="#top">
-        <img src={img('opp-12.png')} />
-        <span>Outer Points Productions</span>
-      </a>
-     <a
-  className="youtubeHeader"
+<a
+  className="brand"
   href="https://youtube.com/@outerpointsproductions"
   target="_blank"
   rel="noopener noreferrer"
 >
-  YouTube
+  <img src={img('opp-12.png')} />
+  <span>Outer Points Productions on YouTube</span>
 </a>
 
       <nav>
