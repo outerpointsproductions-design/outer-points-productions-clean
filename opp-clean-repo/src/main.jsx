@@ -88,12 +88,37 @@ function BreakingPointPage() {
   <h2 style={{ marginTop: 0 }}>What Is The Breaking Point?</h2>
 
   <p>
-    The Breaking Point is an original pool competition series created by
-    Outer Points Productions. 12 contestants face intense, original
-    challenges designed to test far more than shot making, including strategy,
-    safety play, adaptability, decision-making, and composure under pressure.
-   The Breaking Point would not be possible without the incredible sponsors who believed in this vision from the beginning. Your support helps us create an original competition that gives players a bigger stage, showcases their stories, and brings something fresh and exciting to the pool community. We are genuinely grateful to every sponsor who helped bring The Breaking Point to life.
-<div style={{ marginTop: '32px' }}>
+  The Breaking Point is an original pool competition series created by
+  Outer Points Productions. Twelve contestants face intense, original
+  challenges designed to test far more than shot-making, including strategy,
+  safety play, adaptability, decision-making, and composure under pressure.
+</p>
+
+<p style={{ marginBottom: 0 }}>
+  Players are eliminated throughout the competition until only one survivor
+  remains to become The Breaking Point champion.
+</p>
+</div>
+
+<div
+  style={{
+    background: 'linear-gradient(135deg, rgba(4, 49, 88, 0.95), rgba(3, 17, 31, 0.95))',
+    border: '1px solid rgba(74, 195, 255, 0.45)',
+    borderRadius: '24px',
+    padding: '32px',
+    marginBottom: '40px'
+  }}
+>
+  <h2 style={{ marginTop: 0 }}>Thank You to Our Sponsors</h2>
+
+  <p>
+    The Breaking Point would not be possible without the incredible sponsors
+    who believed in this vision from the beginning. Your support helps us give
+    players a bigger stage, showcase their stories, and bring something fresh
+    and exciting to the pool community.
+  </p>
+
+  <div style={{ marginTop: '32px' }}>
   <h3 style={{ marginBottom: '8px' }}>Proudly Supported By</h3>
 
   <p style={{ marginTop: 0 }}>
