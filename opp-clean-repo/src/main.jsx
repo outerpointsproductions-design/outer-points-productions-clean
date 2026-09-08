@@ -457,7 +457,7 @@ function App(){
       <option value="8-Ball">8-Ball</option>
       <option value="9-Ball">9-Ball</option>
       <option value="10-Ball">10-Ball</option>
-      <option value="Mixed">One Pocket</option>
+      <option value="Mixed">Mixed</option>
       <option value="Other">Other</option>
     </select>
 
