@@ -76,7 +76,29 @@ function BreakingPointPage() {
         >
           12 players. 12 stories. One survivor.
         </SectionTitle>
+<div
+  style={{
+    background: 'linear-gradient(135deg, rgba(4, 49, 88, 0.95), rgba(3, 17, 31, 0.95))',
+    border: '1px solid rgba(74, 195, 255, 0.45)',
+    borderRadius: '24px',
+    padding: '32px',
+    marginBottom: '40px'
+  }}
+>
+  <h2 style={{ marginTop: 0 }}>What Is The Breaking Point?</h2>
 
+  <p>
+    The Breaking Point is an original pool competition series created by
+    Outer Points Productions. Twelve contestants face intense, original
+    challenges designed to test far more than shot-making—including strategy,
+    safety play, adaptability, decision-making, and composure under pressure.
+  </p>
+
+  <p style={{ marginBottom: 0 }}>
+    Players are eliminated throughout the competition until only one survivor
+    remains to become The Breaking Point champion.
+  </p>
+</div>
        <div className="breakingPointGrid">
 
   <div className="contestantCard">
