@@ -490,3 +490,76 @@
     grid-template-columns: 1fr;
   }
 }
+/* TOURNAMENT REQUEST */
+
+.tournamentRequest {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.tournamentRequestBox {
+  margin-top: 28px;
+  padding: 30px;
+  border: 1px solid rgba(58, 170, 255, 0.3);
+  border-radius: 22px;
+  background: rgba(10, 18, 28, 0.7);
+}
+
+.tournamentRequestBox h3 {
+  margin: 0 0 24px;
+  font-size: 28px;
+}
+
+.requestFormGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.requestFormGrid input,
+.requestFormGrid select,
+.tournamentRequestBox textarea {
+  width: 100%;
+  padding: 16px 18px;
+  border-radius: 14px;
+  border: 1px solid rgba(58, 170, 255, 0.3);
+  background: rgba(5, 12, 20, 0.85);
+  color: white;
+  font-size: 16px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.requestFormGrid input:focus,
+.requestFormGrid select:focus,
+.tournamentRequestBox textarea:focus {
+  border-color: #5ec8ff;
+}
+
+.requestFormGrid select option {
+  background: #08121c;
+  color: white;
+}
+
+.tournamentRequestBox textarea {
+  display: block;
+  min-height: 150px;
+  resize: vertical;
+  margin-top: 18px;
+  margin-bottom: 22px;
+}
+
+.tournamentRequestBox .btn {
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .requestFormGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .tournamentRequestBox {
+    padding: 22px;
+  }
+}
