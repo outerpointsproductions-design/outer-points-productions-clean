@@ -259,9 +259,9 @@ function App(){
   <span
   style={{
     color: 'white',
-    fontSize: '70px',
+    fontSize: '80px',
     fontWeight: '800',
-    lineHeight: '1'
+    lineHeight: '1.2'
   }}
 >
   Outer Points
