@@ -54,7 +54,7 @@ function Header(){
 >
  <img
   src={img('opp-12.png')}
-  alt="Outer Points Productions"
+  alt="Outer Points Productions on YouTube"
   style={{ width: '90px', height: '90px', objectFit: 'contain' }}
 />
 <span>Outer Points Productions</span>
