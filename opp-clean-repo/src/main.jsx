@@ -46,7 +46,7 @@ function SectionTitle({ eyebrow, title, children }) {
 function Header(){
   return (
     <header className="nav">
-      <nav>
+      <nav style={{ marginLeft: 'auto' }}>
        <a href="/breaking-point">The Breaking Point</a>
         <a
   href="https://docs.google.com/forms/d/e/1FAIpQLSdkBlQjMkTC79hOz77RNq_OfT7RVbjccFdmoNPh_49YOLIcMg/viewform?usp=publish-editor"
