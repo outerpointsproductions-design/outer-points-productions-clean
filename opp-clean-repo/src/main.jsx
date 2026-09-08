@@ -92,6 +92,8 @@ function BreakingPointPage() {
     Outer Points Productions. 12 contestants face intense, original
     challenges designed to test far more than shot making, including strategy,
     safety play, adaptability, decision-making, and composure under pressure.
+   The Breaking Point would not be possible without the incredible sponsors who believed in this vision from the beginning. Your support helps us create an original competition that gives players a bigger stage, showcases their stories, and brings something fresh and exciting to the pool community. We are genuinely grateful to every sponsor who helped bring The Breaking Point to life.
+
   </p>
 
   <p style={{ marginBottom: 0 }}>
