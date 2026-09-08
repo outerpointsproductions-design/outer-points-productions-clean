@@ -242,13 +242,13 @@ function App(){
  <div className="heroBg"><img src={img('booth.jpg')}/></div><div className="heroShade"/>
  <div
   className="heroContent"
-  style={{ transform: 'translateY(-120px)' }}
+  style={{ transform: 'translateY(-100px)' }}
 >
 <div style={{
   display: 'flex',
   alignItems: 'center',
   gap: '30px',
-  transform: 'translateY(-70px)'
+  transform: 'translateY(-90px)'
 }}>
   <img
     src={img('opp-12.png')}
