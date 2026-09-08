@@ -50,6 +50,14 @@ function Header(){
         <img src={img('opp-12.png')} />
         <span>Outer Points Productions</span>
       </a>
+     <a
+  className="youtubeHeader"
+  href="https://youtube.com/@outerpointsproductions"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  YouTube
+</a>
 
       <nav>
         <a href="#series">Series</a>
