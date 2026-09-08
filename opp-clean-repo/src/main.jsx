@@ -255,7 +255,7 @@ function App(){
   <span
   style={{
     color: 'white',
-    fontSize: '62px',
+    fontSize: '70px',
     fontWeight: '800',
     lineHeight: '1'
   }}
