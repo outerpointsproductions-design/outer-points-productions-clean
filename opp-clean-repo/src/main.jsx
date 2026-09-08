@@ -681,16 +681,32 @@ Click on the sponsor logo to visit their website or Facebook page.
 
   <div className="merchGrid">
 
-    <div className="merchCard">
-      <div className="merchImagePlaceholder">
-        Product Image
-      </div>
-      <h3>Outer Points Productions Shirt</h3>
-      <p>Official OPP apparel.</p>
-      <button className="btn" type="button">
-        Coming Soon
-      </button>
-    </div>
+   <div className="merchCard">
+  <img
+    className="merchProductImage"
+    src={img('OPP Jersey.png')}
+    alt="Personalized Outer Points Productions Jersey"
+  />
+
+  <h3>Personalized OPP Jersey</h3>
+
+  <div className="merchPrice">
+    $70.00
+    <span> + $5.00 shipping</span>
+  </div>
+
+  <p>
+    Get your own personalized Outer Points Productions jersey with your name
+    added to the back.
+  </p>
+
+  <a
+    className="btn"
+    href="mailto:outerpointsproductions@gmail.com?subject=OPP Personalized Jersey Order"
+  >
+    Order Your Jersey
+  </a>
+</div>
 
     <div className="merchCard">
       <div className="merchImagePlaceholder">
