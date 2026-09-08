@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import { Play, Trophy, Calendar, Users, Radio, Star, Mail, Camera, Handshake, ChevronRight } from 'lucide-react';
 import './styles.css';
@@ -23,6 +23,29 @@ const matchArchive=[
 ['KO 1.1 Finals','Mike Schultz vs. Al Holden','matches-by-name-2-1-1-finals.jpg','https://youtube.com/live/lNrcSRq71mo'],['Ultimate KO Challenge','Kenny Engichy vs. Rudy McGill','kenny-and-rudy-png.png','https://youtube.com/live/LR_ybag8LoA?feature=share'],['Ultimate KO Finals','Patrick Racette vs. Jeremy Fedkenheuer','ultimate-ko-10-ball-jeremy-fedkenheuer-vs-patrick-racette.png'],['KO Challenge Finals','Tim Stockinger vs. Tarek Hamdan','finals-1.jpg','https://youtube.com/live/Ar6Yckq_AYs?feature=share'],['KO 1.5 Finals','Julie Fleming • Damien Bettinger • Randy Thiry','ko-1-5-7-6-1.png','https://youtube.com/live/DQ8IHmruxjk']
 ];
 const stats=[['Events & Series','KO Challenge • Masters • Breaking Point'],['Broadcast Style','Multi-camera, commentary, overlays'],['Core Venue','The Varsity Club • Oshkosh, WI'],['Mission','Grow Wisconsin pool through media']];
+const tournamentOptions = [
+  {
+    name: 'Badger KO',
+    minFargo: 0,
+    maxFargo: 625,
+    description: 'Wisconsin residents only • $265 entry',
+    signup: 'https://docs.google.com/forms/d/e/1FAIpQLSdkBlQjMkTC79hOz77RNq_OfT7RVbjccFdmoNPh_49YOLIcMg/viewform?usp=publish-editor'
+  },
+  {
+    name: 'KO 1.5',
+    minFargo: 0,
+    maxFargo: 575,
+    description: '575 Fargo & under',
+    signup: '#'
+  },
+  {
+    name: 'KO 1.6',
+    minFargo: 0,
+    maxFargo: 625,
+    description: '625 Fargo & under',
+    signup: '#'
+  }
+];
 function SectionTitle({ eyebrow, title, children }) {
   return (
     <div className="sectionTitle">
@@ -205,6 +228,7 @@ function ChampionsHallPage() {
   );
 }
 function App(){
+ const [fargoInput, setFargoInput] = useState('');
   useEffect(() => {
     if(window.location.pathname.includes('badger-ko-signup')){
       setTimeout(() => document.getElementById('badger-ko-signup')?.scrollIntoView({behavior:'smooth'}), 300);
@@ -322,7 +346,68 @@ function App(){
      </div>
 </section>
 
+<section id="tournament-finder" className="wrap tournamentFinder">
+  <SectionTitle
+    eyebrow="Tournament Finder"
+    title="Find Your Tournament"
+  >
+    Enter your FargoRate below to see which Outer Points Productions tournaments you qualify for.
+  </SectionTitle>
 
+  <div className="fargoFinderBox">
+    <label htmlFor="fargoRate">Enter Your FargoRate</label>
+
+    <input
+      id="fargoRate"
+      type="number"
+      min="0"
+      max="1000"
+      placeholder="Example: 548"
+      value={fargoInput}
+      onChange={(e) => setFargoInput(e.target.value)}
+    />
+  </div>
+
+  {fargoInput && (
+    <div className="tournamentResults">
+      {tournamentOptions
+        .filter((tournament) => {
+          const fargo = Number(fargoInput);
+          return (
+            fargo >= tournament.minFargo &&
+            fargo <= tournament.maxFargo
+          );
+        })
+        .map((tournament) => (
+          <div
+            className="tournamentFinderCard"
+            key={tournament.name}
+          >
+            <p className="eyebrow">YOU QUALIFY</p>
+
+            <h3>{tournament.name}</h3>
+
+            <p>{tournament.description}</p>
+
+            <div className="tournamentFargoRange">
+              Fargo eligibility: {tournament.minFargo}–{tournament.maxFargo}
+            </div>
+
+            {tournament.signup !== '#' && (
+              <a
+                className="btn"
+                href={tournament.signup}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Sign Up
+              </a>
+            )}
+          </div>
+        ))}
+    </div>
+  )}
+</section>
 
 <section
   id="badger-ko-signup"
