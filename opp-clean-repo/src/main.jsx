@@ -245,7 +245,7 @@ function App(){
   alignItems: 'center',
   gap: '30px',
   transform: 'translateY(-70px)'
-}}
+}}>
   <img
     src={img('opp-12.png')}
     alt="Outer Points Productions"
