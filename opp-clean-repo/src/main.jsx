@@ -671,7 +671,51 @@ Click on the sponsor logo to visit their website or Facebook page.
     )}
   </div>
 </section>
+<section id="merchandise" className="wrap merchandiseSection">
+  <SectionTitle
+    eyebrow="OPP Merchandise"
+    title="Rep the Stream. Support Wisconsin Pool."
+  >
+    Official Outer Points Productions gear, event merchandise, and limited-edition apparel.
+  </SectionTitle>
 
+  <div className="merchGrid">
+
+    <div className="merchCard">
+      <div className="merchImagePlaceholder">
+        Product Image
+      </div>
+      <h3>Outer Points Productions Shirt</h3>
+      <p>Official OPP apparel.</p>
+      <button className="btn" type="button">
+        Coming Soon
+      </button>
+    </div>
+
+    <div className="merchCard">
+      <div className="merchImagePlaceholder">
+        Product Image
+      </div>
+      <h3>Badger KO Merchandise</h3>
+      <p>Gear from the Badger KO Challenge.</p>
+      <button className="btn" type="button">
+        Coming Soon
+      </button>
+    </div>
+
+    <div className="merchCard">
+      <div className="merchImagePlaceholder">
+        Product Image
+      </div>
+      <h3>The Breaking Point Merchandise</h3>
+      <p>Official gear from The Breaking Point.</p>
+      <button className="btn" type="button">
+        Coming Soon
+      </button>
+    </div>
+
+  </div>
+</section>
 <section id="media" className="wrap">
   <SectionTitle
     eyebrow="Media Center"
