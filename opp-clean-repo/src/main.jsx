@@ -485,24 +485,7 @@ function App(){
       }
     />
 
-    <input
-      type="number"
-      placeholder="Preferred Field Size"
-      value={requestForm.fieldSize}
-      onChange={(e) =>
-        setRequestForm({...requestForm, fieldSize: e.target.value})
-      }
-    />
-
-    <input
-      type="text"
-      placeholder="City / Preferred Venue"
-      value={requestForm.location}
-      onChange={(e) =>
-        setRequestForm({...requestForm, location: e.target.value})
-      }
-    />
-
+  
   </div>
 
   <textarea
@@ -529,8 +512,6 @@ FargoRate: ${requestForm.fargo}
 Preferred Game: ${requestForm.game}
 Format: ${requestForm.format}
 Desired Fargo Cap / Range: ${requestForm.fargoRange}
-Preferred Field Size: ${requestForm.fieldSize}
-City / Venue: ${requestForm.location}
 
 Tournament Idea:
 ${requestForm.notes}`
