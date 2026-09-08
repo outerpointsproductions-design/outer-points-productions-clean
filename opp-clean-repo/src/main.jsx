@@ -457,7 +457,7 @@ function App(){
       <option value="8-Ball">8-Ball</option>
       <option value="9-Ball">9-Ball</option>
       <option value="10-Ball">10-Ball</option>
-      <option value="One Pocket">One Pocket</option>
+      <option value="Mixed">One Pocket</option>
       <option value="Other">Other</option>
     </select>
 
@@ -469,7 +469,9 @@ function App(){
     >
       <option value="">Tournament Format</option>
       <option value="Singles">Singles</option>
+     <option value="Singles Challenge Match">Single Challenge Match</option>
       <option value="Scotch Doubles">Scotch Doubles</option>
+      <option value="Scotch Doubles Challenge Match">Scotch Doubles Challenge Match</option>
       <option value="Team">Team</option>
       <option value="Other">Other</option>
     </select>
