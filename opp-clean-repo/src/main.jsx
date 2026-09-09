@@ -369,6 +369,48 @@ function App(){
   />
 </a><h3>The Breaking Point™</h3><p>Original challenge-show pool content built by Outer Points Productions.</p></div>
 </section>
+   <section
+  className="wrap"
+  style={{ paddingTop: '30px', paddingBottom: '30px' }}
+>
+  <div
+    style={{
+      background: 'linear-gradient(135deg, rgba(4, 49, 88, 0.96), rgba(3, 17, 31, 0.96))',
+      border: '1px solid rgba(74, 195, 255, 0.45)',
+      borderRadius: '24px',
+      padding: '36px'
+    }}
+  >
+    <p className="eyebrow">ORIGINAL OUTER POINTS COMPETITION</p>
+
+    <h2 style={{ marginTop: '14px' }}>Home of the KO Challenge</h2>
+
+    <p style={{ maxWidth: '950px', marginBottom: 0 }}>
+<div style={{ maxWidth: '950px', marginBottom: 0 }}>
+  <p>
+    The <strong>KO Challenge Series</strong>, created by <strong>Outer Points Productions in 2023</strong>, 
+    offers a completely different approach to the traditional pool tournament format.
+  </p>
+
+  <p>
+    Built around <strong>single-elimination competition and longer races</strong>, the series gives players 
+    the freedom to schedule their own matches around work, family, and busy lifestyles. After each round, 
+    the remaining players are redrawn, creating fresh matchups and an unpredictable path to the championship.
+  </p>
+
+  <p>
+    The KO Challenge Series is designed to make every event feel special, featuring 
+    <strong> significant payouts, live-streamed matches, custom jerseys for the finalists, collectible 
+    challenge chips for every competitor, and handmade miniature pool table trophies</strong> for its champions.
+  </p>
+
+  <p>
+    It's competitive pool with a format built around the players—combining 
+    <strong> flexibility, high-stakes competition, professional presentation, and a championship experience 
+    unlike a traditional tournament.</strong>
+  </p>
+</div>
+</section>
 <section className="stats">{stats.map(([a,b])=><div className="stat" key={a}><b>{a}</b><span>{b}</span></div>)}</section>
 <section id="series" className="wrap">
   <SectionTitle eyebrow="Featured Programming" title="A Full Wisconsin Pool Media Network">
