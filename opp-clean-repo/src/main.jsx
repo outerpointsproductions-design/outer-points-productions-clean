@@ -150,7 +150,15 @@ function BreakingPointPage() {
     remains to become The Breaking Point champion.
   </p>
 </div>
-       <div className="breakingPointGrid">
+  <SectionTitle
+  eyebrow="The Breaking Point™"
+  title="Meet The Contestants"
+>
+  12 players. 12 stories. One survivor.
+</SectionTitle>
+
+<div className="breakingPointGrid">     
+     <div className="breakingPointGrid">
 
   <div className="contestantCard">
     <img src={img('1-Bill Larson.png')} alt="Bill Larson" />
