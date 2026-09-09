@@ -410,10 +410,7 @@ function App(){
    </p>
 </div>
 </div>
-
-<section className="stats">{stats.map(([a,b])=><div className="stat" key={a}><b>{a}</b><span>{b}</span></div>)}</section>
-
-<section id="series" className="wrap"> 
+</section>
 
 <section className="stats">{stats.map(([a,b])=><div className="stat" key={a}><b>{a}</b><span>{b}</span></div>)}</section>
 <section id="series" className="wrap">
