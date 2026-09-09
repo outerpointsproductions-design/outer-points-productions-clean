@@ -367,7 +367,10 @@ function App(){
     src={img('the-breaking-point-20-1.png')}
     alt="The Breaking Point"
   />
-</a><h3>Home of The Breaking Point™</h3><p>Original competition series where pool meets pressure, strategy and survival.11 Episodes-1 Survivor.</p></div>
+</a><h3>
+  Home of<br />
+  The Breaking Point™
+</h3><p>Original competition series where pool meets pressure, strategy and survival. 11 Episodes - 1 Survivor.</p></div>
 </section>
    <section
   className="wrap"
