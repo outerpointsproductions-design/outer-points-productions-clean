@@ -149,6 +149,15 @@ function BreakingPointPage() {
     11 Contestants are eliminated throughout the competition until only 1 survivor
     remains to become The Breaking Point champion.
   </p>
+   <a
+  className="btn"
+  href="https://youtu.be/BA2pwpDq08w"
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{ display: 'inline-flex', marginTop: '24px' }}
+>
+  Watch The Breaking Point Preview
+</a>    
 </div>
   <SectionTitle
   eyebrow="The Breaking Point™"
