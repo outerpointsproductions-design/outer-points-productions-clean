@@ -785,7 +785,15 @@ Click on the sponsor logo to visit their website or Facebook page.
         onClick={() => link && window.open(link, '_blank')}
         style={{ cursor: link ? 'pointer' : 'default' }}
       >
-        <img src={img(p)} />
+        <img
+  src={img(p)}
+  alt={n}
+  style={{
+    width: '100%',
+    height: '220px',
+    objectFit: 'contain'
+  }}
+/>
         <span>{n}</span>
       </div>
     )}
