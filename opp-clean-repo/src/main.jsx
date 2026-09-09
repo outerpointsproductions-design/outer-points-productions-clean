@@ -142,7 +142,15 @@ function BreakingPointPage() {
         rel="noopener noreferrer"
         style={{ cursor: 'pointer', textDecoration: 'none' }}
       >
-        <img src={img(p)} alt={n} />
+        <img
+  src={img(p)}
+  alt={n}
+  style={{
+    width: '100%',
+    height: '220px',
+    objectFit: 'contain'
+  }}
+/>
         <span>{n}</span>
       </a>
     ))}
