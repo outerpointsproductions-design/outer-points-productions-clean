@@ -987,7 +987,23 @@ Click on the sponsor logo to visit their website or Facebook page.
   </div>
 
 </section>
-<section id="contact" className="contact"><img src={img('opp-12.png')}/><div><p className="eyebrow">Book Outer Points Productions</p><h2>Bring OPP to your event, venue, or brand.</h2><p>For sponsorships, featured matches, tournament coverage, The Breaking Point™, KO Challenge events, or venue partnerships, reach out to Outer Points Productions.</p><div className="actions"><a className="btn primary" href="mailto:outerpointsproductions@gmail.com"><Mail size={18}/> Email OPP</a><a className="btn" href="https://youtube.com/@outerpointsproductions" target="_blank"><Play size={18}/> YouTube Channel</a></div></div></section>
+<section id="contact" className="contact"><img src={img('opp-12.png')}/><p className="eyebrow">Book Outer Points Productions</p>
+
+<h2>Bring Your Match to the OPP Stream</h2>
+
+<p>
+  Outer Points Productions operates from a permanent live-stream production booth
+  at The Varsity Club in Oshkosh, Wisconsin.
+</p>
+
+<p>
+  Featured matches, tournaments, special events, and original OPP productions —
+  professionally produced and streamed live.
+</p>
+
+<p>
+  <strong>Want to be featured? Let's make it happen.</strong>
+</p><h2>Bring OPP to your event, venue, or brand.</h2><p>For sponsorships, featured matches, tournament coverage, The Breaking Point™, KO Challenge events, or venue partnerships, reach out to Outer Points Productions.</p><div className="actions"><a className="btn primary" href="mailto:outerpointsproductions@gmail.com"><Mail size={18}/> Email OPP</a><a className="btn" href="https://youtube.com/@outerpointsproductions" target="_blank"><Play size={18}/> YouTube Channel</a></div></div></section>
  <footer><span>Outer Points Productions</span><span>Live pool streaming • tournament media • Wisconsin billiards</span></footer></>);
 }
 createRoot(document.getElementById('root')).render(<App/>);
