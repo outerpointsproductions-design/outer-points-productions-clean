@@ -387,7 +387,24 @@ function App(){
   >
     The Breaking Point™
   </span>
-</h3><p>Original competition series where pool meets pressure, strategy and survival. 11 Episodes - 1 Survivor.</p></div>
+</h3>
+
+<p>
+  Original competition series where pool meets pressure, strategy and survival.
+</p>
+
+<p
+  style={{
+    fontSize: '26px',
+    fontWeight: '800',
+    marginTop: '18px',
+    marginBottom: '0'
+  }}
+>
+  11 Episodes — 1 Survivor.
+</p>
+
+</div>
 </section>
    <section
   className="wrap"
