@@ -233,8 +233,11 @@ function BreakingPointPage() {
     <img src={img('10-JR Villegas.png')} alt="JR Villegas" />
   </div>
 
+<div className="contestantCard">
+  <img src={img('12-Adam Swenson.png')} alt="Adam Swenson" />
 </div>
 
+     </div>
         <div style={{ marginTop: '40px' }}>
           <a className="btn" href="/">
             ← Back to Outer Points Productions
