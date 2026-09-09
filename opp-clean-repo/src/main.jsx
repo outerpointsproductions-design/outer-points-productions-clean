@@ -987,7 +987,16 @@ Click on the sponsor logo to visit their website or Facebook page.
   </div>
 
 </section>
-<section id="contact" className="contact"><img src={img('opp-12.png')}/><p className="eyebrow">Book Outer Points Productions</p>
+<section
+  id="contact"
+  style={{
+    display: 'block',
+    textAlign: 'center',
+    padding: '70px 40px'
+  }}
+>
+  <img src={img('opp-12.png')} />
+  <p className="eyebrow">Book Outer Points Productions</p>
 
 <h2>Bring Your Match to the OPP Stream</h2>
 
