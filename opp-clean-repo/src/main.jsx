@@ -358,7 +358,7 @@ function App(){
   <br />
   Productions
 </span>
-</div><div className="pill">Live Pool Streaming • Tournament Media • Wisconsin Billiards</div><h1 style={{ fontSize: 'clamp(40px, 6vw, 80px)' }}>Pool Deserves an Even Bigger Stage. OPP Brings it to Life.</h1><p>Outer Points Productions creates professional live streams, player spotlights, tournament graphics, sponsor exposure, and high-energy billiards content for fans, players, venues, and brands.</p><div className="actions"><a className="btn primary" href="https://youtube.com/@outerpointsproductions" target="_blank"><Play size={18}/> Watch on YouTube</a></div></div>
+</div><div className="pill">Live Pool Streaming • Tournament Media • Wisconsin Billiards</div><h1 style={{ fontSize: 'clamp(36px, 4.5vw, 64px)' }}>Pool Deserves an Even Bigger Stage. OPP Brings it to Life.</h1><p>Outer Points Productions creates professional live streams, player spotlights, tournament graphics, sponsor exposure, and high-energy billiards content for fans, players, venues, and brands.</p><div className="actions"><a className="btn primary" href="https://youtube.com/@outerpointsproductions" target="_blank"><Play size={18}/> Watch on YouTube</a></div></div>
  <div className="heroPanel"><a
   href="/breaking-point"
   aria-label="Enter The Breaking Point Hub"
