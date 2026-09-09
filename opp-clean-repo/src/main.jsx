@@ -1005,9 +1005,7 @@ Click on the sponsor logo to visit their website or Facebook page.
 </p>
 
 </section>
-<p>
-  <strong>Want to be featured? Let's make it happen.</strong>
-</p><h2>Bring OPP to your event, venue, or brand.</h2><p>For sponsorships, featured matches, tournament coverage, The Breaking Point™, KO Challenge events, or venue partnerships, reach out to Outer Points Productions.</p><div className="actions"><a className="btn primary" href="mailto:outerpointsproductions@gmail.com"><Mail size={18}/> Email OPP</a><a className="btn" href="https://youtube.com/@outerpointsproductions" target="_blank"><Play size={18}/> YouTube Channel</a></div></div></section>
+
  <footer><span>Outer Points Productions</span><span>Live pool streaming • tournament media • Wisconsin billiards</span></footer></>);
 }
 createRoot(document.getElementById('root')).render(<App/>);
