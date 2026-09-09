@@ -146,23 +146,14 @@ function BreakingPointPage() {
 </div>
 
  
-  className="btn"
-  href="https://youtu.be/BA2pwpDq08w"
-  target="_blank"
-  rel="noopener noreferrer"
-  style={{ display: 'inline-flex', marginTop: '24px' }}
->
-  Watch The Breaking Point Preview
-</a>    
-</div>
+ 
   <SectionTitle
   eyebrow="The Breaking Point™"
   title="Meet The Contestants"
 >
   12 players. 12 stories. One survivor.
 </SectionTitle>
-
-<div className="breakingPointGrid">     
+   
      <div className="breakingPointGrid">
 
   <div className="contestantCard">
