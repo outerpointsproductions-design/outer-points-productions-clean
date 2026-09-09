@@ -70,12 +70,7 @@ function BreakingPointPage() {
       <Header />
 
       <main className="wrap" style={{ paddingTop: '60px', paddingBottom: '80px' }}>
-        <SectionTitle
-          eyebrow="The Breaking Point™"
-          title="Meet The Contestants"
-        >
-          12 players. 12 stories. One survivor.
-        </SectionTitle>
+       
 <div
   style={{
     background: 'linear-gradient(135deg, rgba(4, 49, 88, 0.95), rgba(3, 17, 31, 0.95))',
@@ -98,6 +93,16 @@ function BreakingPointPage() {
   Players are eliminated throughout the competition until only one survivor
   remains to become The Breaking Point champion.
 </p>
+
+<a
+  className="btn"
+  href="https://youtu.be/BA2pwpDq08w"
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{ display: 'inline-flex', marginTop: '24px' }}
+>
+  Watch: What Is The Breaking Point?
+</a>
 </div>
 
 <div
