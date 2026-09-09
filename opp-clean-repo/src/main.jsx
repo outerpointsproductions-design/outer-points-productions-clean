@@ -409,7 +409,7 @@ function App(){
     unlike a traditional tournament.</strong>
   </p>
 </div>
-</section>
+
 <section className="stats">{stats.map(([a,b])=><div className="stat" key={a}><b>{a}</b><span>{b}</span></div>)}</section>
 <section id="series" className="wrap">
   <SectionTitle eyebrow="Featured Programming" title="A Full Wisconsin Pool Media Network">
