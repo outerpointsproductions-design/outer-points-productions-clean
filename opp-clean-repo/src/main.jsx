@@ -385,7 +385,6 @@ function App(){
 
     <h2 style={{ marginTop: '14px' }}>Home of the KO Challenge</h2>
 
-    <p style={{ maxWidth: '950px', marginBottom: 0 }}>
 <div style={{ maxWidth: '950px', marginBottom: 0 }}>
   <p>
     The <strong>KO Challenge Series</strong>, created by <strong>Outer Points Productions in 2023</strong>, 
