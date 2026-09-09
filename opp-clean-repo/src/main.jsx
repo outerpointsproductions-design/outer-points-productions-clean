@@ -407,8 +407,13 @@ function App(){
     It's competitive pool with a format built around the players—combining 
     <strong> flexibility, high-stakes competition, professional presentation, and a championship experience 
     unlike a traditional tournament.</strong>
-  </p>
+   </p>
 </div>
+</section>
+
+<section className="stats">{stats.map(([a,b])=><div className="stat" key={a}><b>{a}</b><span>{b}</span></div>)}</section>
+
+<section id="series" className="wrap"> 
 
 <section className="stats">{stats.map(([a,b])=><div className="stat" key={a}><b>{a}</b><span>{b}</span></div>)}</section>
 <section id="series" className="wrap">
