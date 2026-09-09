@@ -101,7 +101,7 @@ function BreakingPointPage() {
   rel="noopener noreferrer"
   style={{ display: 'inline-flex', marginTop: '24px' }}
 >
-  Watch: What Is The Breaking Point?
+  Watch The Video
 </a>
 </div>
 
