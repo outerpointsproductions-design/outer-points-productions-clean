@@ -391,15 +391,7 @@ function App(){
   }}
   style={{ cursor: "pointer" }}
 >
-       <img
-  src={img(p)}
-  alt={n}
-  style={{
-    width: '100%',
-    height: '220px',
-    objectFit: 'contain'
-  }}
-/>
+<img src={img(p)} alt={t} />
         <div>
           <h3>{t}</h3>
           <p>{d}</p>
