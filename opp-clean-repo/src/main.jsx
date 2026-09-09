@@ -409,7 +409,7 @@ function App(){
     unlike a traditional tournament.</strong>
    </p>
 </div>
-</section>
+</div>
 
 <section className="stats">{stats.map(([a,b])=><div className="stat" key={a}><b>{a}</b><span>{b}</span></div>)}</section>
 
