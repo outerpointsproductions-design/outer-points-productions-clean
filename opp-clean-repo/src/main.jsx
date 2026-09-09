@@ -956,37 +956,7 @@ Click on the sponsor logo to visit their website or Facebook page.
   )}
 </div>
 </section>
-<section className="wrap oppStudio">
-  <SectionTitle
-    eyebrow="OPP Studio"
-    title="More Than a Stream"
-  >
-    Professional production built specifically for pool.
-  </SectionTitle>
 
-  <div className="oppStudioGrid">
-    <div className="oppStudioItem">
-      <Radio size={28} />
-      <span>Live stream production</span>
-    </div>
-
-    <div className="oppStudioItem">
-      <Camera size={28} />
-      <span>Venue and feature table coverage</span>
-    </div>
-
-    <div className="oppStudioItem">
-      <Users size={28} />
-      <span>Player spotlights and graphics</span>
-    </div>
-
-    <div className="oppStudioItem">
-      <Handshake size={28} />
-      <span>Sponsor-focused promotion</span>
-    </div>
-  </div>
-
-</section>
 <section id="contact" className="contact">
   <img src={img('opp-12.png')} />
 
