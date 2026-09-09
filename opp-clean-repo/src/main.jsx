@@ -490,6 +490,49 @@ function App(){
       </article>
     );
   })}
+ <article className="feature">
+  <img
+    src={img('Scotch Doubles Showdown.jpg')}
+    alt="Scotch Doubles Showdown"
+  />
+
+  <div>
+    <h3>Scotch Doubles Showdown</h3>
+
+    <p>
+      Two-player teams compete in a handicapped 8-ball showdown featuring
+      scheduled challenge matches, coaching strategy, and plenty of pressure.
+      Sign up your team or view the current team list below.
+    </p>
+
+    <div
+      style={{
+        display: 'flex',
+        gap: '12px',
+        flexWrap: 'wrap',
+        marginTop: '18px'
+      }}
+    >
+      <a
+        className="btn"
+        href="https://docs.google.com/forms/d/e/1FAIpQLScHt9AYhTglyZ-DoHofNUALaXjIlJRPhMz04rt9fBT8d4_KkA/viewform?usp=header"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Sign Up
+      </a>
+
+      <a
+        className="btn"
+        href="https://docs.google.com/spreadsheets/d/1tkX0ptInLmotoSaGmvF-ndw2pbtD7LDc3K66fgbhnX4/edit?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        View Team List
+      </a>
+    </div>
+  </div>
+</article>
 </div>
 </section>  
 <section className="blueBand">
