@@ -1030,15 +1030,6 @@ Click on the sponsor logo to visit their website or Facebook page.
         Email OPP
       </a>
 
-      <a
-        className="btn"
-        href="https://youtube.com/@outerpointsproductions"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <Play size={20} />
-        YouTube Channel
-      </a>
     </div>
   </div>
 </section>
