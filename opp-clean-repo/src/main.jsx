@@ -962,16 +962,48 @@ Click on the sponsor logo to visit their website or Facebook page.
   </a>
 </div>
 
-    <div className="merchCard">
-      <div className="merchImagePlaceholder">
-        Product Image
-      </div>
-      <h3>Badger KO Merchandise</h3>
-      <p>Gear from the Badger KO Challenge.</p>
-      <button className="btn" type="button">
-        Coming Soon
-      </button>
-    </div>
+   <div className="merchCard">
+  <div
+    className="merchImagePlaceholder"
+    style={{ padding: 0, overflow: 'hidden' }}
+  >
+    <img
+      src={img('Badger Jersey.png')}
+      alt="Official Badger KO Jersey"
+      style={{
+        width: '100%',
+        height: '100%',
+        objectFit: 'contain',
+        display: 'block'
+      }}
+    />
+  </div>
+
+  <h3>Badger KO Jersey</h3>
+
+  <p>
+    Official personalized Badger KO jersey. Available in sizes Medium
+    through 8X with your choice of a Pro or Polo collar and your name
+    added to the jersey.
+  </p>
+
+  <p>
+    <strong>
+      Badger KO Players: $60<br />
+      General Public: $70<br />
+      Shipping: $10
+    </strong>
+  </p>
+
+  <a
+    className="btn"
+    href="https://docs.google.com/forms/d/e/1FAIpQLSctMCIAcYAx3goN6LjEWaMpUeNBzATabFKCSNuovzpdZCICZA/viewform?usp=publish-editor"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Order Your Jersey
+  </a>
+</div>
 
     <div className="merchCard">
       <div className="merchImagePlaceholder">
