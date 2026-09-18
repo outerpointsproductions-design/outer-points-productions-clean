@@ -475,9 +475,11 @@ function App(){
   onClick={() => {
     if (href.startsWith("#")) {
       document.querySelector(href)?.scrollIntoView({ behavior: "smooth" });
-    } else {
-      window.open(href, "_blank");
-    }
+    } else if (href.startsWith("/")) {
+  window.location.href = href;
+} else {
+  window.open(href, "_blank");
+}
   }}
   style={{ cursor: "pointer" }}
 >
