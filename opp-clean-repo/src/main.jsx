@@ -233,6 +233,13 @@ function BreakingPointPage() {
     <img src={img('10-JR Villegas.png')} alt="JR Villegas" />
   </div>
 
+ <div className="contestantCard">
+  <img
+    src={img('11-Jeff Christianson.png')}
+    alt="Jeff Christianson"
+  />
+</div>
+      
 <div className="contestantCard">
   <img src={img('12-Adam Swenson.png')} alt="Adam Swenson" />
 </div>
