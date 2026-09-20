@@ -542,9 +542,6 @@ function App(){
     </div>
   </div>
 </article>
-       </div>
-    </div>
-</article>
 
 <article className="feature">
   <img
