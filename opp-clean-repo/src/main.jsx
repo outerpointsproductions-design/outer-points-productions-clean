@@ -505,31 +505,6 @@ function App(){
     alt="Scotch Doubles Showdown"
   />
 
-  <article className="feature">
-  <img
-    src={img('The Blindside Challenge.png')}
-    alt="The Blindside Challenge"
-  />
-
-  <div>
-    <h3>The Blindside Challenge</h3>
-
-    <p>
-      You see the terms—you don’t see the opponent. Four Fargo divisions
-      feature eight players each, with 32 players competing to crown four
-      division champions. Signups open October 1.
-    </p>
-
-    <a
-      className="btn"
-      href="https://docs.google.com/forms/d/e/1FAIpQLSd0odFqpTIVPRVRxFcFZq4Hgb2gDoWbsZzP4hug-VllsYTjFg/viewform?usp=header"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Sign Up
-    </a>
-  </div>
-</article>
   <div>
     <h3>Scotch Doubles Showdown</h3>
 
@@ -565,6 +540,35 @@ function App(){
         View Team List
       </a>
     </div>
+  </div>
+</article>
+       </div>
+    </div>
+</article>
+
+<article className="feature">
+  <img
+    src={img('The Blindside Challenge.png')}
+    alt="The Blindside Challenge"
+  />
+
+  <div>
+    <h3>The Blindside Challenge</h3>
+
+    <p>
+      You see the terms—you don’t see the opponent. Four Fargo divisions
+      feature eight players each, with 32 players competing to crown four
+      division champions. Signups open October 1.
+    </p>
+
+    <a
+      className="btn"
+      href="https://docs.google.com/forms/d/e/1FAIpQLSd0odFqpTIVPRVRxFcFZq4Hgb2gDoWbsZzP4hug-VllsYTjFg/viewform?usp=header"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Sign Up
+    </a>
   </div>
 </article>
 </div>
