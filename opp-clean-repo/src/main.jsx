@@ -549,7 +549,7 @@ function App(){
     alt="The Blindside Challenge"
     style={{
       width: '100%',
-      height: '600px',
+      height: '350px',
       objectFit: 'contain',
       objectPosition: 'top center',
       backgroundColor: '#05070a'
@@ -560,8 +560,8 @@ function App(){
     <h3>The Blindside Challenge</h3>
 
     <p>
-      You see the terms—you don’t see the opponent. Four Fargo divisions
-      feature eight players each, with 32 players competing to crown four
+      You see the terms—you don’t see the opponent. 4 Fargo divisions
+      feature 8 players each, with 32 players competing to crown 4
       division champions. Signups open October 1.
     </p>
 
