@@ -501,15 +501,22 @@ function App(){
   })}
  <article className="feature">
   <img
-    src={img('Scotch Doubles Showdown.jpg')}
-    alt="Scotch Doubles Showdown"
-  />
+  src={img('Scotch Doubles Showdown.jpg')}
+  alt="Scotch Doubles Showdown"
+  style={{
+    width: '100%',
+    height: '350px',
+    objectFit: 'contain',
+    objectPosition: 'top center',
+    backgroundColor: '#05070a'
+  }}
+/>
 
   <div>
     <h3>Scotch Doubles Showdown</h3>
 
     <p>
-      Two-player teams compete in a handicapped 8-ball showdown featuring
+      2-player teams compete in a handicapped 8-ball showdown featuring
       scheduled challenge matches, coaching strategy, and plenty of pressure.
       Sign up your team or view the current team list below.
     </p>
