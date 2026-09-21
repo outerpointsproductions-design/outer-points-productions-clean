@@ -547,6 +547,13 @@ function App(){
   <img
     src={img('The Blindside Challenge.png')}
     alt="The Blindside Challenge"
+    style={{
+      width: '100%',
+      height: '600px',
+      objectFit: 'contain',
+      objectPosition: 'top center',
+      backgroundColor: '#05070a'
+    }}
   />
 
   <div>
@@ -558,14 +565,34 @@ function App(){
       division champions. Signups open October 1.
     </p>
 
-    <a
-      className="btn"
-      href="https://docs.google.com/forms/d/e/1FAIpQLSd0odFqpTIVPRVRxFcFZq4Hgb2gDoWbsZzP4hug-VllsYTjFg/viewform?usp=header"
-      target="_blank"
-      rel="noopener noreferrer"
+    <div
+      style={{
+        display: 'flex',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        gap: '12px',
+        flexWrap: 'wrap',
+        marginTop: '18px'
+      }}
     >
-      Sign Up
-    </a>
+      <a
+        className="btn"
+        href="https://docs.google.com/document/d/18X27Lh93hYfDHjllXSxZzzGEl_2YvNNiMVsReJUx4iU/edit?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Format & Rules
+      </a>
+
+      <a
+        className="btn"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSd0odFqpTIVPRVRxFcFZq4Hgb2gDoWbsZzP4hug-VllsYTjFg/viewform?usp=header"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Sign Up
+      </a>
+    </div>
   </div>
 </article>
 </div>
