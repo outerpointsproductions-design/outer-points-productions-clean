@@ -483,7 +483,20 @@ function App(){
   }}
   style={{ cursor: "pointer" }}
 >
-<img src={img(p)} alt={t} />
+<img
+  src={img(p)}
+  alt={t}
+  style={
+    t === "The Badger KO"
+      ? {
+          objectFit: "contain",
+          objectPosition: "center",
+          backgroundColor: "#05070a",
+          padding: "10px"
+        }
+      : undefined
+  }
+/>
         <div>
           <h3>{t}</h3>
           <p>{d}</p>
