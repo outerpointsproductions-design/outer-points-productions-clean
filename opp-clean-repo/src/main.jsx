@@ -632,15 +632,15 @@ target={
   />
 
   <div>
-    <h3>The Blindside Challenge</h3>
+  <h3>The Blindside Challenge</h3>
 
-    <p>
-      You see the terms—you don’t see the opponent. 5 Fargo divisions
-      feature 8 players each, with 40 players competing to stay in
-      the fight as long as possible. The players rewards increase with
-      each victory.
-    </p>
-
+  <p>
+    You see the terms—but you won’t know your opponent until the envelope
+    is opened! 5 Fargo divisions feature 8 active players each, with
+    40 competitors battling to remain in the fight. Win and stay. Build your
+    streak. The more matches you win, the greater your rewards!
+  </p>
+</div>
     <div
       style={{
         display: 'flex',
