@@ -1202,7 +1202,26 @@ Click on the sponsor logo to visit their website or Facebook page.
     </div>
   </div>
 </section>
-
+<div
+  style={{
+    display: 'flex',
+    justifyContent: 'center',
+    padding: '40px 20px'
+  }}
+>
+  <button
+    className="btn"
+    type="button"
+    onClick={() =>
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      })
+    }
+  >
+    ↑ Back to the Top
+  </button>
+</div>
  <footer><span>Outer Points Productions</span><span>Live pool streaming • tournament media • Wisconsin billiards</span></footer></>);
 }
 createRoot(document.getElementById('root')).render(<App/>);
