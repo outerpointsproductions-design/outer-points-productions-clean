@@ -1209,18 +1209,23 @@ Click on the sponsor logo to visit their website or Facebook page.
     padding: '40px 20px'
   }}
 >
-  <button
-    className="btn"
-    type="button"
-    onClick={() =>
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-      })
-    }
-  >
-    ↑ Back to the Top
-  </button>
+ <button
+  className="btn"
+  type="button"
+  onClick={() =>
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }
+  style={{
+    backgroundColor: '#22c55e',
+    color: '#ffffff',
+    border: '2px solid #4ade80'
+  }}
+>
+  ↑ Back to the Top
+</button>
 </div>
  <footer><span>Outer Points Productions</span><span>Live pool streaming • tournament media • Wisconsin billiards</span></footer></>);
 }
