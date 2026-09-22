@@ -246,17 +246,10 @@ function BreakingPointPage() {
 
      </div>
         <div style={{ marginTop: '40px' }}>
-          <a className="btn" href="/">
-         <button
-  className="btn"
-  type="button"
-  onClick={() => window.history.back()}
-  style={{ cursor: "pointer" }}
->
-  ← Back to Outer Points Productions
-</button>
-          </a>
-        </div>
+  <a className="btn" href="/#series">
+    ← Back to Outer Points Productions
+  </a>
+</div>
       </main>
     </>
   );
