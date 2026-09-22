@@ -635,9 +635,10 @@ target={
     <h3>The Blindside Challenge</h3>
 
     <p>
-      You see the terms—you don’t see the opponent. 4 Fargo divisions
-      feature 8 players each, with 32 players competing to crown 4
-      division champions. Signups open October 1.
+      You see the terms—you don’t see the opponent. 5 Fargo divisions
+      feature 8 players each, with 40 players competing to stay in
+      the fight as long as possible. The players rewards increase with
+      each victory.
     </p>
 
     <div
