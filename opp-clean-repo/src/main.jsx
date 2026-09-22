@@ -503,7 +503,11 @@ function App(){
           <a
            className="btn"
   href={href}
-  target={href.startsWith("#") ? "_self" : "_blank"}
+target={
+  href.startsWith("#") || href.startsWith("/")
+    ? "_self"
+    : "_blank"
+}
   rel="noopener noreferrer"
   onClick={(e) => e.stopPropagation()}
 >
