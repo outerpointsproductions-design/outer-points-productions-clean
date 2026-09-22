@@ -299,7 +299,7 @@ function ChampionsHallPage() {
 </div>
 
         <div style={{ marginTop: '50px' }}>
-          <a className="btn" href="/">
+          <a className="btn" href="/#series">
             ← Back to Outer Points Productions
           </a>
         </div>
