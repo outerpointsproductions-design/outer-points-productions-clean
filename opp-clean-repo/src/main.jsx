@@ -919,7 +919,7 @@ ${requestForm.notes}`
   }}
 >
   <div className="signupArt">
-  <img src={img('the-badger-ko-3.png')} />
+  <img src={img('The Badger KO.png')} />
 </div><div id="badger-details" className="signupCard">
     <p className="eyebrow">Player Registration</p>
     <h2>The Badger KO Signup</h2>
