@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { createRoot } from 'react-dom/client';
 import { Play, Trophy, Calendar, Users, Radio, Star, Mail, Camera, Handshake, ChevronRight } from 'lucide-react';
 import './styles.css';
