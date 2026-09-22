@@ -669,7 +669,7 @@ target={
         Sign Up
       </a>
     </div>
-  </div>
+
 </article>
 </div>
 </section>  
