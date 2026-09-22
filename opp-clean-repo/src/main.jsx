@@ -31,7 +31,41 @@ const tournamentOptions = [
     description: 'Wisconsin residents only • $265 entry',
     signup: 'https://docs.google.com/forms/d/e/1FAIpQLSdkBlQjMkTC79hOz77RNq_OfT7RVbjccFdmoNPh_49YOLIcMg/viewform?usp=publish-editor'
   },
-
+  {
+    name: 'Blindside Challenge — 500 & Under',
+    minFargo: 0,
+    maxFargo: 500,
+    description: 'Blindside Challenge • 500 Fargo and under',
+    signup: 'https://docs.google.com/forms/d/e/1FAIpQLSd0odFqpTIVPRVRxFcFZq4Hgb2gDoWbsZzP4hug-VllsYTjFg/viewform?usp=header'
+  },
+  {
+    name: 'Blindside Challenge — 501–550',
+    minFargo: 501,
+    maxFargo: 550,
+    description: 'Blindside Challenge • 501–550 Fargo division',
+    signup: 'https://docs.google.com/forms/d/e/1FAIpQLSd0odFqpTIVPRVRxFcFZq4Hgb2gDoWbsZzP4hug-VllsYTjFg/viewform?usp=header'
+  },
+  {
+    name: 'Blindside Challenge — 551–600',
+    minFargo: 551,
+    maxFargo: 600,
+    description: 'Blindside Challenge • 551–600 Fargo division',
+    signup: 'https://docs.google.com/forms/d/e/1FAIpQLSd0odFqpTIVPRVRxFcFZq4Hgb2gDoWbsZzP4hug-VllsYTjFg/viewform?usp=header'
+  },
+  {
+    name: 'Blindside Challenge — 601–650',
+    minFargo: 601,
+    maxFargo: 650,
+    description: 'Blindside Challenge • 601–650 Fargo division',
+    signup: 'https://docs.google.com/forms/d/e/1FAIpQLSd0odFqpTIVPRVRxFcFZq4Hgb2gDoWbsZzP4hug-VllsYTjFg/viewform?usp=header'
+  },
+  {
+    name: 'Blindside Challenge — Open',
+    minFargo: 651,
+    maxFargo: 9999,
+    description: 'Blindside Challenge • 651 Fargo and above',
+    signup: 'https://docs.google.com/forms/d/e/1FAIpQLSd0odFqpTIVPRVRxFcFZq4Hgb2gDoWbsZzP4hug-VllsYTjFg/viewform?usp=header'
+  }
 ];
 function SectionTitle({ eyebrow, title, children }) {
   return (
