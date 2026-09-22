@@ -507,7 +507,11 @@ function App(){
   rel="noopener noreferrer"
   onClick={(e) => e.stopPropagation()}
 >
-            {t === "The Badger KO" ? "Register Now" : "Learn more"} ›
+{t === "The Badger KO"
+  ? "View Details"
+  : t === "Champions Hall"
+  ? "Enter The Hall"
+  : "Learn more"}
           </a>
         </div>
       </article>
