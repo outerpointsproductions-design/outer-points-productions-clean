@@ -10,7 +10,7 @@ const sponsors=[
 ];
 const eventCards=[
  ['The Breaking Point™','12 contestants. One survivor. Pressure-packed pool challenges, elimination battles, and unforgettable moments as players fight to become the first-ever Breaking Point champion.','the-breaking-point-21-2.png','/breaking-point'],
- ['The Badger KO','Wisconsin residents, serious Fargo caps, big money, schedule-your-own match dates, and live final stages.','the-badger-ko-3.png','#badger-ko-signup'],
+ ['The Badger KO','Wisconsin residents, serious Fargo caps, big money, schedule-your-own match dates, and live final stages.','The Badger KO.png','#badger-ko-signup'],
 ['Champions Hall','KO Challenge history, champions, unforgettable moments, feature matches, and full event replays.','champions-hall.png','/champions-hall']
 ];
 const champions=[
