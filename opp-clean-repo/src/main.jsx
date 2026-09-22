@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import { Play, Trophy, Calendar, Users, Radio, Star, Mail, Camera, Handshake, ChevronRight } from 'lucide-react';
 import './styles.css';
@@ -309,15 +309,6 @@ function ChampionsHallPage() {
   );
 }
 function App(){
- useEffect(() => {
-  if (window.location.hash === "#series") {
-    setTimeout(() => {
-      document
-        .getElementById("series")
-        ?.scrollIntoView({ behavior: "smooth", block: "start" });
-    }, 500);
-  }
-}, []);
  const [fargoInput, setFargoInput] = useState('');
  const [requestForm, setRequestForm] = useState({
   name: '',
