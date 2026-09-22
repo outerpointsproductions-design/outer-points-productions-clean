@@ -309,6 +309,15 @@ function ChampionsHallPage() {
   );
 }
 function App(){
+ useEffect(() => {
+  if (window.location.hash === "#series") {
+    setTimeout(() => {
+      document
+        .getElementById("series")
+        ?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, 500);
+  }
+}, []);
  const [fargoInput, setFargoInput] = useState('');
  const [requestForm, setRequestForm] = useState({
   name: '',
