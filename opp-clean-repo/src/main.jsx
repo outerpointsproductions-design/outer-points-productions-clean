@@ -322,10 +322,22 @@ function App(){
   notes: ''
 });
   useEffect(() => {
-    if(window.location.pathname.includes('badger-ko-signup')){
-      setTimeout(() => document.getElementById('badger-ko-signup')?.scrollIntoView({behavior:'smooth'}), 300);
-    }
-  },[]);
+  if (window.location.pathname.includes('badger-ko-signup')) {
+    setTimeout(() => {
+      document
+        .getElementById('badger-ko-signup')
+        ?.scrollIntoView({ behavior: 'smooth' });
+    }, 300);
+  }
+
+  if (window.location.hash === '#series') {
+    setTimeout(() => {
+      document
+        .getElementById('series')
+        ?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 500);
+  }
+}, []);
 
   if(window.location.pathname === '/breaking-point'){
     return <BreakingPointPage />;
