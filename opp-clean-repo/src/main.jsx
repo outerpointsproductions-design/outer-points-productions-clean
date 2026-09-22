@@ -501,6 +501,7 @@ function App(){
           <h3>{t}</h3>
           <p>{d}</p>
           <a
+           className="btn"
   href={href}
   target={href.startsWith("#") ? "_self" : "_blank"}
   rel="noopener noreferrer"
