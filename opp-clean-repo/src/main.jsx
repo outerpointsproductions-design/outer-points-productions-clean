@@ -1040,7 +1040,16 @@ href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSTA0AHyVAc_iVVHDc76oA2l_L
   >
 Click on the sponsor logo to visit their website or Facebook page.
   </SectionTitle>
-
+<div style={{ marginTop: '24px' }}>
+  <a
+    className="btn"
+    href="PASTE-YOUR-GOOGLE-FORM-LINK-HERE"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Become a Sponsor of OPP
+  </a>
+</div>
   <div className="sponsorGrid">
     {sponsors.map(([n,p,link]) =>
       <div
