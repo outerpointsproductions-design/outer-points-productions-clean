@@ -1034,18 +1034,37 @@ href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSTA0AHyVAc_iVVHDc76oA2l_L
 
 
 <section id="sponsors" className="sponsorSec">
+ <div
+  style={{
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    gap: '30px',
+    flexWrap: 'wrap'
+  }}
+>
   <SectionTitle
     eyebrow="Sponsor Network"
     title="Brands Backing Wisconsin Pool"
   >
-Click on the sponsor logo to visit their website or Facebook page.
+    Click on the sponsor logo to visit their website or Facebook page.
   </SectionTitle>
-<div style={{ marginTop: '24px' }}>
+
   <a
-    className="btn"
     href="PASTE-YOUR-GOOGLE-FORM-LINK-HERE"
     target="_blank"
     rel="noopener noreferrer"
+    style={{
+      display: 'inline-block',
+      padding: '16px 26px',
+      borderRadius: '999px',
+      background: '#22c55e',
+      color: '#07140b',
+      border: '2px solid #86efac',
+      fontWeight: '800',
+      textDecoration: 'none',
+      whiteSpace: 'nowrap'
+    }}
   >
     Become a Sponsor of OPP
   </a>
