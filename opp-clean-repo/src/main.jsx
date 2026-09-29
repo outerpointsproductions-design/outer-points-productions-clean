@@ -987,9 +987,13 @@ ${requestForm.notes}`
     Register for The Badger KO
   </a>
 
-  <a
-    className="btn"
-    href="#payment-options"
+  <details
+  style={{
+    width: '100%',
+    position: 'relative'
+  }}
+>
+  <summary
     style={{
       width: '100%',
       minHeight: '64px',
@@ -998,13 +1002,77 @@ ${requestForm.notes}`
       justifyContent: 'center',
       textAlign: 'center',
       boxSizing: 'border-box',
+      padding: '14px 18px',
+      borderRadius: '999px',
       background: '#22c55e',
-      borderColor: '#86efac',
-      color: '#07140b'
+      border: '2px solid #86efac',
+      color: '#07140b',
+      fontWeight: '800',
+      cursor: 'pointer',
+      listStyle: 'none'
     }}
   >
     Pay Entry Fee
-  </a>
+  </summary>
+
+  <div
+    style={{
+      position: 'absolute',
+      top: '74px',
+      right: '0',
+      width: '270px',
+      padding: '16px',
+      borderRadius: '18px',
+      background: '#111827',
+      border: '1px solid #3b82f6',
+      boxShadow: '0 12px 30px rgba(0,0,0,.55)',
+      display: 'grid',
+      gap: '10px',
+      zIndex: '100'
+    }}
+  >
+    <a
+      className="btn"
+      href="https://cash.app/pay/link/j6y9tskt"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Pay With Cash App
+    </a>
+
+    <a
+      className="btn"
+      href="https://venmo.com/u/Dale-Lorenz-2"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Pay With Venmo
+    </a>
+
+    <a
+      className="btn"
+      href="https://paypal.me/lilcheddar/273"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Pay With PayPal
+    </a>
+
+    <div
+      style={{
+        padding: '13px',
+        borderRadius: '999px',
+        background: '#27272a',
+        border: '1px solid #52525b',
+        color: 'white',
+        fontWeight: '800',
+        textAlign: 'center'
+      }}
+    >
+      Zelle: 920-254-3753
+    </div>
+  </div>
+</details>
 </div>
 <div className="badgerKoPlayerFeature">
   <img
