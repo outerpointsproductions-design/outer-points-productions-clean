@@ -964,3 +964,44 @@
     max-width: 100% !important;
   }
 }
+.badgerActionButtons {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 24px;
+}
+
+.badgerActionBtn {
+  width: 100%;
+  min-height: 66px;
+  padding: 14px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.paymentBtn {
+  background: #22c55e;
+  border-color: #86efac;
+  color: #07140b;
+}
+
+.paymentBtn:hover {
+  background: #16a34a;
+  color: white;
+}
+
+@media (max-width: 900px) {
+  .badgerActionButtons {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .badgerActionButtons {
+    grid-template-columns: 1fr;
+  }
+}
