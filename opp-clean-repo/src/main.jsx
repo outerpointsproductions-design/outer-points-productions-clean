@@ -971,7 +971,7 @@ ${requestForm.notes}`
 
   <a
     className="btn"
-    href="https://docs.google.com/forms/d/e/1FAIpQLSdkB1QjMkTC79hOz77RNq_OfT7RVbjccFdmoNPh_49YOLIcMg/viewform?usp=publish-editor"
+    href="https://docs.google.com/forms/d/e/1FAIpQLSdkBlQjMkTC79hOz77RNq_OfT7RVbjccFdmoNPh_49YOLIcMg/viewform?usp=header"
     target="_blank"
     rel="noopener noreferrer"
     style={{
