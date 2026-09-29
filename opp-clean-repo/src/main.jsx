@@ -925,33 +925,87 @@ ${requestForm.notes}`
     <p className="eyebrow">Player Registration</p>
     <h2>The Badger KO Signup</h2>
     <p className="signupIntro">Wisconsin residents only. 625 Fargo & under. Fill this out to get on the player interest/sign-up list. Entries will be sent to Outer Points Productions.</p>
- <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
-
+ <div
+  style={{
+    display: 'grid',
+    gridTemplateColumns: 'repeat(4, minmax(0, 1fr))',
+    gap: '12px',
+    width: '100%'
+  }}
+>
   <a
     className="btn"
     href="https://docs.google.com/document/d/1-uezJoeNYahkix_BBLT1I-1Edks8W-Ty8ttZeuKeRgc/edit?usp=sharing"
     target="_blank"
     rel="noopener noreferrer"
+    style={{
+      width: '100%',
+      minHeight: '64px',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      textAlign: 'center',
+      boxSizing: 'border-box'
+    }}
   >
     View Full Format & Rules
   </a>
-  <a
-  className="btn"
-href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSTA0AHyVAc_iVVHDc76oA2l_LcXrwSqqG8likgG_Oe1OwHQ64VtFqNqjy0cG03JrcWrYbKCqcaHL1J/pubhtml?gid=527443326&single=true"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  View Current Player List
-</a>
 
-<a
-  className="btn"
-  href="https://docs.google.com/forms/d/e/1FAIpQLSdkBlQjMkTC79hOz77RNq_OfT7RVbjccFdmoNPh_49YOLIcMg/viewform?usp=publish-editor"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  Register for The Badger KO
-</a>
+  <a
+    className="btn"
+    href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSTA0AHyVAc_iVHDc76oA21_LcXrwSqqG8likgG_0e1OwHQ64VtFqNqjy0cG03JrcWrYbKCqcaHL1J/pubhtml?gid=527443326&single=true"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      width: '100%',
+      minHeight: '64px',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      textAlign: 'center',
+      boxSizing: 'border-box'
+    }}
+  >
+    View Current Player List
+  </a>
+
+  <a
+    className="btn"
+    href="https://docs.google.com/forms/d/e/1FAIpQLSdkB1QjMkTC79hOz77RNq_OfT7RVbjccFdmoNPh_49YOLIcMg/viewform?usp=publish-editor"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      width: '100%',
+      minHeight: '64px',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      textAlign: 'center',
+      boxSizing: 'border-box'
+    }}
+  >
+    Register for The Badger KO
+  </a>
+
+  <a
+    className="btn"
+    href="#payment-options"
+    style={{
+      width: '100%',
+      minHeight: '64px',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      textAlign: 'center',
+      boxSizing: 'border-box',
+      background: '#22c55e',
+      borderColor: '#86efac',
+      color: '#07140b'
+    }}
+  >
+    Pay Entry Fee
+  </a>
+</div>
 <div className="badgerKoPlayerFeature">
   <img
     src={img('Badger KO Trading Cards.png')}
