@@ -928,7 +928,7 @@ ${requestForm.notes}`
  <div
   style={{
     display: 'grid',
-    gridTemplateColumns: 'repeat(4, minmax(0, 1fr))',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(210px, 1fr))',
     gap: '12px',
     width: '100%'
   }}
