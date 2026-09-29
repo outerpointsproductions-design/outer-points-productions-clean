@@ -1015,7 +1015,7 @@ ${requestForm.notes}`
   
 
 </div>
-    </div>
+
    <div className="rulesBox">
 
   <h2>The Badger KO Information Center</h2>
