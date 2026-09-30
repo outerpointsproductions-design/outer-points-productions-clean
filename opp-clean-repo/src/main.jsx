@@ -665,7 +665,19 @@ target={
       >
         Format & Rules
       </a>
-
+<a
+  className="btn"
+  href="https://youtube.com/live/ZLZ-Za2iSEM"
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{
+    background: '#FF0000',
+    borderColor: '#FF0000',
+    color: '#FFFFFF'
+  }}
+>
+  Watch Video
+</a>
       <a
         className="btn"
         href="https://docs.google.com/forms/d/e/1FAIpQLSd0odFqpTIVPRVRxFcFZq4Hgb2gDoWbsZzP4hug-VllsYTjFg/viewform?usp=header"
