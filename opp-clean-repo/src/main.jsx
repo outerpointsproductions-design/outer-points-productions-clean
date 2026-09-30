@@ -497,7 +497,7 @@ function App(){
     color: '#FFFFFF'
   }}
 >
-  What Is the KO Challenge Series?
+  Watch The Video
 </a>
 <div style={{ maxWidth: '950px', marginBottom: 0 }}>
   <p>
