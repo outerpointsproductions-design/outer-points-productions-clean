@@ -133,7 +133,13 @@ function BreakingPointPage() {
   href="https://youtu.be/BA2pwpDq08w"
   target="_blank"
   rel="noopener noreferrer"
-  style={{ display: 'inline-flex', marginTop: '24px' }}
+  style={{
+  display: 'inline-flex',
+  marginTop: '24px',
+  background: '#FF0000',
+  borderColor: '#FF0000',
+  color: '#FFFFFF'
+}}
 >
   Watch The Video
 </a>
