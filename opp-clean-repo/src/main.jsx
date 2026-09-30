@@ -483,7 +483,22 @@ function App(){
     <p className="eyebrow">ORIGINAL OUTER POINTS COMPETITION</p>
 
     <h2 style={{ marginTop: '14px' }}>Home of the KO Challenge</h2>
-
+<a
+  className="btn"
+  href="https://youtu.be/2EB3QZ27eQM"
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{
+    display: 'inline-flex',
+    marginTop: '20px',
+    marginBottom: '24px',
+    background: '#FF0000',
+    borderColor: '#FF0000',
+    color: '#FFFFFF'
+  }}
+>
+  What Is the KO Challenge Series?
+</a>
 <div style={{ maxWidth: '950px', marginBottom: 0 }}>
   <p>
     The <strong>KO Challenge Series</strong>, created by <strong>Outer Points Productions in 2023</strong>, 
