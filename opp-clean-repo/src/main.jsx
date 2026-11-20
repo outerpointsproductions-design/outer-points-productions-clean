@@ -1125,13 +1125,8 @@ Register for KO Challenge 1.7
   </div>
 </details>
 </div>
-<div className="badgerKoPlayerFeature">
-  <img
-    src={img('Badger KO Trading Cards.png')}
-    alt="Roger Pregler - Badger KO Contestant"
-  />
-</div>
-  
+
+
 
 </div>
 
