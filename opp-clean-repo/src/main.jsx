@@ -10,7 +10,7 @@ const sponsors=[
 ];
 const eventCards=[
  ['The Breaking Point™','12 contestants. One survivor. Pressure-packed pool challenges, elimination battles, and unforgettable moments as players fight to become the first-ever Breaking Point champion.','the-breaking-point-21-2.png','/breaking-point'],
- ['The Badger KO','Wisconsin residents, serious Fargo caps, big money, schedule-your-own match dates, and live final stages.','The Badger KO.png','#badger-ko-signup'],
+ ['KO Challenge 1.7','550 & under Fargo tournament. $265 entry, optional $50 side pot, schedule-your-own matches, and a $4,000 champion prize with a full field.','KO Challenge 1.7 flyer.png','#badger-ko-signup'],
 ['Champions Hall','KO Challenge history, champions, unforgettable moments, feature matches, and full event replays.','champions-hall.png','/champions-hall']
 ];
 const champions=[
@@ -971,7 +971,7 @@ ${requestForm.notes}`
   }}
 >
   <div className="signupArt">
-  <img src={img('The Badger KO.png')} />
+  <img src={img('KO Challenge 1.7 flyer.png')} />
 </div><div id="badger-details" className="signupCard">
     <p className="eyebrow">Player Registration</p>
     <h2>KO Challenge 1.7 Signup</h2>
