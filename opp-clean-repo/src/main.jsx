@@ -974,8 +974,8 @@ ${requestForm.notes}`
   <img src={img('The Badger KO.png')} />
 </div><div id="badger-details" className="signupCard">
     <p className="eyebrow">Player Registration</p>
-    <h2>The Badger KO Signup</h2>
-    <p className="signupIntro">Wisconsin residents only. 625 Fargo & under. Fill this out to get on the player interest/sign-up list. Entries will be sent to Outer Points Productions.</p>
+    <h2>KO Challenge 1.7 Signup</h2>
+    <p className="signupIntro">550 Fargo and under. $265 entry with an optional $50 side pot. Your spot is not reserved and your name will not appear on the official player list until payment is received and verified. Entries will be sent to Outer Points Productions.</p>
  <div
   style={{
     display: 'grid',
