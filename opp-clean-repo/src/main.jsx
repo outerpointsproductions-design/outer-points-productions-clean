@@ -1137,18 +1137,19 @@ Register for KO Challenge 1.7
 
    <div className="rulesBox">
 
-  <h2>The Badger KO Information Center</h2>
+  <h2>KO Challenge 1.7 Information Center</h2>
 
   <h3>Tournament Overview</h3>
   <ul>
-    <li>128 Player Field</li>
-    <li>Wisconsin Residents Only</li>
-    <li>625 Fargo & Under</li>
+    <li>64 Player Field</li>
+    <li>550 Fargo & Under</li>
     <li>$265 Entry Fee</li>
     <li>Double Elimination Format</li>
-    <li>Schedule Your Own Match Date & Time</li>
-    <li>Player Auction or Side Pot Available</li>
+    <li>Schedule Your Own Match Date & Time Within a 2 Week Period</li>
+    <li>Optional Side Pot Available</li>
+    <li>Top 8 Players Receive Jerseys</li>
     <li>Final 16 Live Streamed at The Varsity Club</li>
+    <li>$4,000 Champion Prize with a Full Field</li>
   </ul>
 
   <h3>Match Format</h3>
@@ -1159,14 +1160,14 @@ Register for KO Challenge 1.7
 
   <h3>Set Format</h3>
   <ul>
-    <li>Set 1 - 9-Ball - Race to 6</li>
-    <li>Set 2 - 8-Ball - Race to 4</li>
-    <li>Set 3 - 10-Ball - Race to 5</li>
+    <li>Set 1 - 9-Ball - Race to 5</li>
+    <li>Set 2 - 8-Ball - Race to 3</li>
+    <li>Set 3 - 10-Ball - Race to 4</li>
   </ul>
 
   <h3>Handicap System</h3>
   <p>
-    One game spot is awarded for every 50 Fargo points difference.
+    One game spot is awarded for every 60 Fargo points difference.
     The higher Fargo rated player must win 1 extra game per spot per set.
   </p>
 
