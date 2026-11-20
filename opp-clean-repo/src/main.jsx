@@ -247,9 +247,15 @@ function BreakingPointPage() {
     <span>WATCH TONY'S STORY ▶</span>
   </a>
 
-  <div className="contestantCard">
-    <img src={img('6-Vincent Schroeder.png')} alt="Vincent Schroeder" />
-  </div>
+  <a
+  className="contestantCard videoCard"
+  href="https://youtu.be/IQBlip0Kv8o"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img src={img('6-Vincent Schroeder.png')} alt="Vincent Schroeder" />
+  <span>WATCH VINCENT'S STORY ▶</span>
+</a>
 
   <a
     className="contestantCard videoCard"
