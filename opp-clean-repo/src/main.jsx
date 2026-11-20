@@ -1022,7 +1022,7 @@ ${requestForm.notes}`
 
   <a
     className="btn"
-    href="https://docs.google.com/forms/d/e/1FAIpQLSdkBlQjMkTC79hOz77RNq_OfT7RVbjccFdmoNPh_49YOLIcMg/viewform?usp=header"
+href="https://docs.google.com/forms/d/e/1FAIpQLSdebg7hGoEzyjwunxdWo7cWCVCMWy32b5lqquuSw94F_FdgtA/viewform"
     target="_blank"
     rel="noopener noreferrer"
     style={{
@@ -1035,7 +1035,7 @@ ${requestForm.notes}`
       boxSizing: 'border-box'
     }}
   >
-    Register for The Badger KO
+Register for KO Challenge 1.7
   </a>
 
   <details
