@@ -972,7 +972,16 @@ ${requestForm.notes}`
 >
   <div className="signupArt">
   <img src={img('KO Challenge 1.7 flyer.png')} />
-</div><div id="badger-details" className="signupCard">
+</div>
+<div
+  id="badger-details"
+  className="signupCard"
+  style={{
+    height: 'auto',
+    maxHeight: 'none',
+    overflow: 'visible'
+  }}
+>
     <p className="eyebrow">Player Registration</p>
     <h2>KO Challenge 1.7 Signup</h2>
     <p className="signupIntro">550 Fargo and under. $265 entry with an optional $50 side pot. Your spot is not reserved and your name will not appear on the official player list until payment is received and verified. Entries will be sent to Outer Points Productions.</p>
