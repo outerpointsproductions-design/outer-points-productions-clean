@@ -267,13 +267,25 @@ function BreakingPointPage() {
     <span>WATCH JEFF'S STORY ▶</span>
   </a>
 
-  <div className="contestantCard">
-    <img src={img('8-Mike Benoy.png')} alt="Mike Benoy" />
-  </div>
+  <a
+  className="contestantCard videoCard"
+  href="https://youtu.be/LKh2hIW08Co"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img src={img('8-Mike Benoy.png')} alt="Mike Benoy" />
+  <span>WATCH MIKE'S STORY ▶</span>
+</a>
 
-  <div className="contestantCard">
-    <img src={img('9-Corey Cyert.png')} alt="Corey Cyert" />
-  </div>
+  <a
+  className="contestantCard videoCard"
+  href="https://youtu.be/q870HbtZ7KQ"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img src={img('9-Corey Cyert.png')} alt="Corey Cyert" />
+  <span>WATCH COREY'S STORY ▶</span>
+</a>
 
   <div className="contestantCard">
     <img src={img('10-JR Villegas.png')} alt="JR Villegas" />
