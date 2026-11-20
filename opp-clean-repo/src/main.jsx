@@ -83,7 +83,7 @@ function Header(){
       <nav style={{ marginLeft: 'auto' }}>
        <a href="/breaking-point">The Breaking Point</a>
         <a
-  href=https://docs.google.com/forms/d/e/1FAIpQLSdebg7hGoEzyjwunxdWo7cWCVCMWy32b5lqquuSw94F_FdgtA/viewform
+ href="https://docs.google.com/forms/d/e/1FAIpQLSdebg7hGoEzyjwunxdWo7cWCVCMWy32b5lqquuSw94F_FdgtA/viewform"
   target="_blank"
   rel="noopener noreferrer"
 >
