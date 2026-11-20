@@ -25,12 +25,12 @@ const matchArchive=[
 const stats=[['Events & Series','KO Challenge • Masters • Breaking Point'],['Broadcast Style','Multi-camera, commentary, overlays'],['Core Venue','The Varsity Club • Oshkosh, WI'],['Mission','Grow Wisconsin Pool Through Media']];
 const tournamentOptions = [
   {
-    name: 'Badger KO',
-    minFargo: 0,
-    maxFargo: 625,
-    description: 'Wisconsin residents only • $265 entry',
-    signup: 'https://docs.google.com/forms/d/e/1FAIpQLSdkBlQjMkTC79hOz77RNq_OfT7RVbjccFdmoNPh_49YOLIcMg/viewform?usp=publish-editor'
-  },
+  name: 'KO Challenge 1.7',
+  minFargo: 0,
+  maxFargo: 550,
+  description: '550 & under • $265 entry • Optional $50 side pot',
+  signup: 'https://docs.google.com/forms/d/e/1FAIpQLSdebg7hGoEzyjwunxdWo7cWCVCMWy32b5lqquuSw94F_FdgtA/viewform'
+},
   {
     name: 'Blindside Challenge — 500 & Under',
     minFargo: 0,
