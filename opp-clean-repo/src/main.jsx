@@ -1173,11 +1173,12 @@ Register for KO Challenge 1.7
 
   <h3>Awards & Prizes</h3>
   <ul>
-    <li>$7,500 Champion Prize</li>
-    <li>Trophies & Prizes for the Final 16</li>
-    <li>Additional Awards Announced Throughout the Event</li>
-  </ul>
-
+   <h3>Awards & Prizes</h3>
+<ul>
+  <li>$4,000 Champion Prize with a Full Field</li>
+  <li>Custom Jerseys for the Top 8 Players</li>
+  <li>Additional Awards Announced Throughout the Event</li>
+</ul>
   <h3>Match Scheduling</h3>
   <p>
     Players are responsible for scheduling their own matches with their opponents.
