@@ -1166,9 +1166,7 @@ Register for KO Challenge 1.7
     The higher Fargo rated player must win 1 extra game per spot per set.
   </p>
 
-  <h3>Awards & Prizes</h3>
-  <ul>
-   <h3>Awards & Prizes</h3>
+ <h3>Awards & Prizes</h3>
 <ul>
   <li>$4,000 Champion Prize with a Full Field</li>
   <li>Custom Jerseys for the Top 8 Players</li>
