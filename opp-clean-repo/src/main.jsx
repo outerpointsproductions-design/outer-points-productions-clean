@@ -580,7 +580,7 @@ function App(){
   src={img(p)}
   alt={t}
   style={
-    t === "The Badger KO"
+    t === "KO Challenge 1.7"
       ? {
           objectFit: "contain",
           objectPosition: "center",
