@@ -325,6 +325,8 @@ const koTournaments = [
   ['KO 1.6','1.6 Finals - Zander Rasmussen Vs. Derek Tauschek.png'],
   ['KO 2.1','KO 2.1-8-Mike K. Vs Lyle G. (1).jpeg'],
   ['KO 3.0','3.0 Finals - Dan Vs. Grey.png'],
+ ['KO 4.0','ko-challenge-4-0-champions.png'],
+['KO 4.1','ko-challenge-4-1-champions.png'],
   ['Ultimate KO','Ultimate KO 10-Ball Jeremy Fedkenheuer Vs. Patrick Racette.png']
 ];
 function ChampionsHallPage() {
