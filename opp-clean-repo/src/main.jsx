@@ -722,6 +722,48 @@ target={
     </div>
 
 </article>
+ <article className="feature">
+  <img
+    src={img('The Badger KO.png')}
+    alt="The Badger KO Challenge"
+    style={{
+      width: '100%',
+      height: '350px',
+      objectFit: 'contain',
+      objectPosition: 'top center',
+      backgroundColor: '#05070a'
+    }}
+  />
+
+  <div>
+    <h3>The Badger KO Challenge</h3>
+
+    <p>
+      Follow The Badger KO Challenge bracket, current matchups, results,
+      and each player's progress through the tournament.
+    </p>
+  </div>
+
+  <div
+    style={{
+      display: 'flex',
+      justifyContent: 'space-between',
+      alignItems: 'center',
+      gap: '12px',
+      flexWrap: 'wrap',
+      marginTop: '18px'
+    }}
+  >
+    <a
+      className="btn"
+      href="https://digitalpool.com/tournaments/the-badger-ko-10"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      View Badger Bracket
+    </a>
+  </div>
+</article>
 </div>
 </section>  
 <section className="blueBand">
