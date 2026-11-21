@@ -14,7 +14,11 @@ const eventCards=[
 ['Champions Hall','KO Challenge history, champions, unforgettable moments, feature matches, and full event replays.','champions-hall.png','/champions-hall']
 ];
 const champions=[
- ['Zander Rasmussen','KO 1.6 Champion','zander-4.jpg'],['Charlie Wolfe','KO 1.2 Champion','matches-by-name-12-charlie-wolfe.png'],['Jason Harlan','KO 1.3 Champion','matches-by-name-11-jason-harlan.png'],['Gretchen Froelich','KO 1.4 Runner Up','ko-1-4-10.png'],['Lyle Goebel','KO 2.1 Champion','ko-2-1-11.png'],['Grey Siech','KO 3.0 Champion','matches-by-name-3-grey-siech-champion.png']
+  ['Zander Rasmussen','KO 1.6 Champion','zander-4.jpg'],
+  ['Charlie Wolfe','KO 1.2 Champion','matches-by-name-12-charlie-wolfe.png'],
+  ['Jason Harlan','KO 1.3 Champion','matches-by-name-11-jason-harlan.png'],
+  ['Kaden Hillman & Taylor Collar','KO Challenge 4.0 Champions','ko-challenge-4-0-champions.png'],
+  ['Mike Schultz & Lee Thomas','KO Challenge 4.1 Champions','ko-challenge-4-1-champions.png']
 ];
 const gallery=[
  ['Broadcast Booth','booth.jpg'],['Venue Feature Table','thumbnail-img-9248.jpg'],['Varsity Club Diamond Room','thumbnail-img-9246.jpg'],['View From Booth','Booth View.jpeg'],['Challenge Chips','challenge-chips.jpg'],['Cheddar’s Table','cheddars-table.png']
