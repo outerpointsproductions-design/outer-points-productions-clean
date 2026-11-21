@@ -91,7 +91,7 @@ function Header(){
   target="_blank"
   rel="noopener noreferrer"
 >
-  Badger KO Signup
+  KO 1.7 Signup
 </a>
         <a href="/champions-hall">Champions Hall</a>
         <a href="#sponsors">Sponsors</a>
