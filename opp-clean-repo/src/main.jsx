@@ -329,7 +329,7 @@ const koTournaments = [
 ['KO 4.1','ko-challenge-4-1-champions.png'],
  ['Scotch Couples Finals','scotch-couples-finals.png'],
  ['Ultimate KO 8-Ball','ultimate-ko-8-ball-finals.png'],
-  ['Ultimate KO','Ultimate KO 10-Ball Jeremy Fedkenheuer Vs. Patrick Racette.png']
+  ['Ultimate KO 10-Ball','Ultimate KO 10-Ball Jeremy Fedkenheuer Vs. Patrick Racette.png']
 ];
 function ChampionsHallPage() {
   return (
